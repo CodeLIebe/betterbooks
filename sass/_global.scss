@@ -1,7 +1,7 @@
 // Global styling for this template
-@include local-font(Better Saturday, prod/assets/fonts/BetterSaturday/BetterSaturday, null, null, ttf);
-@include local-font(DJ Holly Jolly, prod/assets/fonts/DJHollyJolly/, null, null, ttf);
-@include local-font(Work Sans light, prod/assets/fonts/WorkSans/WorkSans-Light, null, null, ttf);
+//@include local-font(Better Saturday, prod/assets/fonts/BetterSaturday/BetterSaturday, null, null, ttf);
+//@include local-font(DJ Holly Jolly, prod/assets/fonts/DJHollyJolly/, null, null, ttf);
+//@include local-font(Work Sans light, prod/assets/fonts/WorkSans/WorkSans-Light, null, null, ttf);
 
 body {
   @include body-font;
@@ -29,4 +29,3 @@ h2 {
 h3 {
   font-size: 2rem;
 }
-//...
