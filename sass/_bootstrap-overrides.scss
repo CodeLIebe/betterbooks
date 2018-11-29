@@ -1,0 +1,25 @@
+.bg-dark {
+  background-color: $dark-grey !important;
+}
+
+.bg-light {
+  background-color: $soft-grey !important;
+}
+//hightlights background
+.bg-primary {
+  background-color: $curry !important;
+}
+
+//highlights text
+.text-primary {
+  color: $curry !important;
+}
+
+a {
+  color: $curry;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($curry, 15%);
+  }
+}

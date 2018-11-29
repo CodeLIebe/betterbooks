@@ -1,0 +1,32 @@
+// Global styling for this template
+@include local-font(Better Saturday, prod/assets/fonts/BetterSaturday/BetterSaturday, null, null, ttf);
+@include local-font(DJ Holly Jolly, prod/assets/fonts/DJHollyJolly/, null, null, ttf);
+@include local-font(Work Sans light, prod/assets/fonts/WorkSans/WorkSans-Light, null, null, ttf);
+
+body {
+  @include body-font;
+  color: $dark-grey;
+  background: $soft-grey;
+}
+h1 {
+  @include highlight-font;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include heading-font;
+  font-weight: 700;
+  color: $dark-grey;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+//...

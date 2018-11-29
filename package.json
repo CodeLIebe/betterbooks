@@ -1,0 +1,33 @@
+{
+  "name": "betterbooks",
+  "version": "1.0.0",
+  "description": "Better Books new Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeLIebe/betterbooks.git"
+  },
+  "keywords": [
+    "webdesign",
+    "website",
+    "sass",
+    "css",
+    "html",
+    "bootstrap",
+    "4"
+  ],
+  "author": "Codinski",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CodeLIebe/betterbooks/issues"
+  },
+  "homepage": "https://github.com/CodeLIebe/betterbooks#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
