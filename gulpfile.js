@@ -25,11 +25,9 @@ gulp.task('css', function () {
     .pipe(gulp.dest('./prod/style/'))
 });
 
+// default gulp task
+gulp.task('watch', function () {
 
-
-// Gulp task to watch all files
-gulp.task('default', function () {
-
-  //watch task to update files automatically
-  gulp.watch('./sass/*.scss',['css']);
+  //watch and update files automatically
+  gulp.watch(['./sass/*.scss'], gulp.series('css'));
 });
