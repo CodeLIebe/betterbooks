@@ -4,7 +4,8 @@ body {
   background: #eaeaea; }
 
 h1 {
-  font-family: "Better Saturday", "DJ Holly Jolly", "Work Sans light", sans-serif; }
+  font-family: "Better Saturday", "DJ Holly Jolly", "Work Sans light", sans-serif;
+  background: #curry; }
 
 h2,
 h3,
@@ -21,6 +22,12 @@ h2 {
 h3 {
   font-size: 2rem; }
 
+.tiny {
+  font-size: 70%; }
+
+.super-tiny {
+  font-size: 60%; }
+
 .bg-dark {
   background-color: #333132 !important; }
 
@@ -29,6 +36,12 @@ h3 {
 
 .bg-primary {
   background-color: #d9a625 !important; }
+
+.text-dark {
+  color: #333132 !important; }
+
+.text-light {
+  color: #eaeaea !important; }
 
 .text-primary {
   color: #d9a625 !important; }

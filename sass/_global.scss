@@ -10,6 +10,7 @@ body {
 }
 h1 {
   @include highlight-font;
+  background: #curry;
 }
 
 h2,
@@ -28,4 +29,12 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}
+
+.tiny {
+  font-size: 70%;
+}
+
+.super-tiny {
+  font-size: 60%;
 }

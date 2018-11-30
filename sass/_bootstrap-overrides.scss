@@ -1,3 +1,5 @@
+
+//background color
 .bg-dark {
   background-color: $dark-grey !important;
 }
@@ -5,16 +7,24 @@
 .bg-light {
   background-color: $soft-grey !important;
 }
-//hightlighted background
+
 .bg-primary {
   background-color: $curry !important;
 }
 
-//highlighted text
+// text color
+.text-dark{
+  color: $dark-grey !important;
+}
+.text-light{
+  color: $soft-grey !important;
+}
+
 .text-primary {
   color: $curry !important;
 }
 
+//link color
 a {
   color: $curry;
   &:hover,

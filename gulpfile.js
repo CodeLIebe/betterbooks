@@ -26,7 +26,7 @@ gulp.task('css', function () {
 });
 
 // default gulp task
-gulp.task('watch', function () {
+gulp.task('default', function () {
 
   //watch and update files automatically
   gulp.watch(['./sass/*.scss'], gulp.series('css'));
