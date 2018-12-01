@@ -1,0 +1,15 @@
+.navbar {
+  @include heading-font;
+}
+
+//link color
+a.nav-link,
+a.text-light {
+  color: $soft-grey;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($soft-grey, 15%);
+    text-decoration: none;
+  }
+}

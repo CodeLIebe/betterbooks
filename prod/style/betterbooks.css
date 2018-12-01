@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Better Saturday";
+  src: url("../assets/fonts/BetterSaturday/BetterSaturday.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "DJ Holly Jolly";
+  src: url("../assets/fonts/DJHollyJolly/DJHollyJolly.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Work Sans light";
+  src: url("../assets/fonts/WorkSans/WorkSans-Light.ttf") format("truetype"); }
+
 body {
   font-family: "Work Sans light", sans-serif;
   color: #333132;
@@ -12,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "DJ Holly Jolly", "Work Sans light", sans-serif;
+  font-family: "Work Sans light", sans-serif;
   font-weight: 700;
   color: #333132; }
 
@@ -27,6 +39,19 @@ h3 {
 
 .super-tiny {
   font-size: 60%; }
+
+.navbar {
+  font-family: "DJ Holly Jolly", "Work Sans light", sans-serif; }
+
+a.nav-link,
+a.text-light {
+  color: #eaeaea; }
+  a.nav-link:hover, a.nav-link:focus, a.nav-link:active,
+  a.text-light:hover,
+  a.text-light:focus,
+  a.text-light:active {
+    color: #c4c4c4;
+    text-decoration: none; }
 
 .bg-dark {
   background-color: #333132 !important; }
@@ -50,3 +75,37 @@ a {
   color: #d9a625; }
   a:hover, a:focus, a:active {
     color: #98741a; }
+
+.btn {
+  border-radius: 0 !important; }
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0; }
+
+.btn-primary {
+  font-family: "DJ Holly Jolly", "Work Sans light", sans-serif;
+  color: #fff;
+  font-weight: 200;
+  font-size: 120%; }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #d9a625;
+  border-color: #d9a625; }
+
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(217, 166, 40, 0.5);
+  background-color: #d9a625;
+  border-color: #d9a625; }

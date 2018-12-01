@@ -1,5 +1,6 @@
-
-//background color
+//-----------------------------------
+//  BACKGROUND COLOR
+//-----------------------------------
 .bg-dark {
   background-color: $dark-grey !important;
 }
@@ -12,7 +13,9 @@
   background-color: $curry !important;
 }
 
-// text color
+//-----------------------------------
+//  TEXT COLOR
+//-----------------------------------
 .text-dark{
   color: $dark-grey !important;
 }
@@ -24,7 +27,9 @@
   color: $curry !important;
 }
 
-//link color
+//-----------------------------------
+//   GENERAL LINK STYLE
+//-----------------------------------
 a {
   color: $curry;
   &:hover,
@@ -32,4 +37,45 @@ a {
   &:active {
     color: darken($curry, 15%);
   }
+}
+//-----------------------------------------
+//   CUSTOM BUTTON STYLES - used as CTA
+//-----------------------------------------
+//remove rounded corners
+.btn {
+  border-radius: 0 !important;
+}
+
+//remove button outline in Chrome
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0;
+}
+.btn-primary{
+  @include heading-font;
+  color: $white;
+  font-weight: 200;
+  font-size: 120%;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle{
+  background-color: $curry;
+  border-color: $curry;
+}
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle,
+.btn-primary:not(:disabled):not(.disabled):active:focus{
+  box-shadow: 0 0 0 0.2rem rgba(217,166,40,.5);
+  background-color: $curry;
+  border-color: $curry;
 }
