@@ -36,6 +36,7 @@ a {
   &:focus,
   &:active {
     color: darken($curry, 15%);
+    text-decoration: none;
   }
 }
 //-----------------------------------------
@@ -59,7 +60,7 @@ a {
   @include heading-font;
   color: $white;
   font-weight: 200;
-  font-size: 120%;
+  font-size: 140%;
 }
 
 .btn-primary,
