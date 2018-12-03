@@ -13,3 +13,15 @@ a.text-light {
     text-decoration: none;
   }
 }
+
+.dropdown-item {
+  color: $dark-grey;
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    color: lighten($dark-grey, 20%);
+    text-decoration: none;
+    background-color: transparent;
+  }
+}

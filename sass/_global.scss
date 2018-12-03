@@ -14,7 +14,9 @@ h1 {
   background: #curry;
 }
 
-h2,
+h2 {
+  @include heading-font;
+}
 h3,
 h4,
 h5,
@@ -40,6 +42,12 @@ h3 {
   font-size: 60%;
 }
 
+.display-6 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
 .h-85 {
   height: 85vh;
   //overflow: auto;
@@ -49,6 +57,10 @@ h3 {
   height: 60vh;
 }
 
+.overflow {
+  overflow-y: auto;
+}
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
@@ -56,7 +68,15 @@ h3 {
 @media (min-width: 576px) { }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
+@media(min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+
+  .dropdown-menu {
+    margin-top: 0 !important;
+  }
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {

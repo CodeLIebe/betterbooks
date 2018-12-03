@@ -23,3 +23,6 @@ Book Cover designed by Qeaql <a href='https://www.freepik.com/free-psd/book-cove
 Book Cover.. laying flat <a href='https://www.freepik.com/free-psd/book-cover-mockup-of-two_2740407.htm'>Designed by Freepik</a>
 Feather in Logo <a href='https://www.freepik.com/free-vector/sketchy-feathers-pack_759744.htm'>Designed by Freepik</a>
 Map in Mockups : <a href='https://www.freepik.com/free-vector/map-pin-in-a-map_714013.htm'>Designed by Freepik</a>
+
+
+Make dropup parent clickable link - open source code frm Code Pen by Pascale Beier - https://codepen.io/PascaleBeier/pen/BdgPre

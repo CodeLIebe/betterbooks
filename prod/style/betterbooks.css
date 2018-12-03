@@ -19,7 +19,9 @@ h1 {
   font-family: "Better Saturday", "DJ Holly Jolly", "Work Sans light", sans-serif;
   background: #curry; }
 
-h2,
+h2 {
+  font-family: "DJ Holly Jolly", "Work Sans light", sans-serif; }
+
 h3,
 h4,
 h5,
@@ -40,11 +42,25 @@ h3 {
 .super-tiny {
   font-size: 60%; }
 
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
 .h-85 {
   height: 85vh; }
 
 .h-60 {
   height: 60vh; }
+
+.overflow {
+  overflow-y: auto; }
+
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block; }
+  .dropdown-menu {
+    margin-top: 0 !important; } }
 
 @media (min-width: 992px) {
   .h-60 {
@@ -62,6 +78,13 @@ a.text-light {
   a.text-light:active {
     color: #c4c4c4;
     text-decoration: none; }
+
+.dropdown-item {
+  color: #333132; }
+  .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active, .dropdown-item.active {
+    color: #676365;
+    text-decoration: none;
+    background-color: transparent; }
 
 .bestseller {
   position: relative;
@@ -97,7 +120,8 @@ a.text-light {
           transform: translate(-30%, -50%);
   transition: all 0.3s ease-in-out 0s; }
 
-.overlay-content h3 {
+.overlay-content h3,
+.overlay-content h4 {
   font-family: "DJ Holly Jolly", "Work Sans light", sans-serif;
   color: #fff;
   font-weight: 400; }
@@ -116,6 +140,65 @@ a.text-light {
 .fadeIn-left {
   left: 20%; }
 
+.container {
+  background-color: #eaeaea;
+  width: 100%;
+  padding-bottom: 30px; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+/* Modal Content Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 4% auto 15% auto;
+  border: 1px solid #bcbbbb;
+  width: 40%;
+  padding-bottom: 30px; }
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #333132;
+  font-size: 35px;
+  font-weight: bold; }
+
+.close:hover, .close:focus {
+  color: #d9a625;
+  cursor: pointer; }
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: zoom 0.6s;
+          animation: zoom 0.6s; }
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
 .bg-dark {
   background-color: #333132 !important; }
 
@@ -124,6 +207,9 @@ a.text-light {
 
 .bg-primary {
   background-color: #d9a625 !important; }
+
+.bg-white {
+  background-color: #fff; }
 
 .text-dark {
   color: #333132 !important; }

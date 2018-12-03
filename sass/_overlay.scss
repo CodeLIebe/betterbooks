@@ -38,10 +38,15 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-.overlay-content h3 {
+.overlay-content h3,
+.overlay-content h4 {
   @include heading-font;
   color: $white;
   font-weight: 400;
+}
+
+.overlay-content h4 {
+  //font-size: 90%;
 }
 
 .overlay-content p{

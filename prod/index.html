@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -7,9 +7,6 @@
     <title>Better Books</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <!-- Custom stylesheet -->
-    <link rel="stylesheet" href="style/betterbooks.css" />
-    <title>Praxis - 01 - Screendesign</title>
    <!-- Bootstrap minified CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <!-- Custom CSS -->
@@ -96,7 +93,7 @@
          </div> <!-- end row  bestseller 2-->
          <div class="row">
            <div class="col border p-4">
-             <button type="button" name="button" class="btn btn-primary btn-block">
+             <button type="button" name="button" class="btn btn-primary btn-block" onclick="showQuiz()">
                <img src="assets/ics/cta-white.png" alt="white bar">
                Neueste Bestseller gewinnen!
              </button>
@@ -118,19 +115,19 @@
               </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto"><img src="assets/ics/feather.png" />
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Startseite</a>
+                    <a class="nav-link" href="index.html">Startseite</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Alle Bücher</a>
+                    <a class="nav-link" href="assets/html/store.html">Alle Bücher</a>
                   </li>
                   <li class="nav-item dropdown dropup">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="assets/html/about.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Über uns
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Anreise</a>
+                      <a class="dropdown-item" href="assets/html/route.html">Anreise</a>
                     </div>
                   </li>
                 </ul>
@@ -139,7 +136,7 @@
         <!-- NAVBAR end -->
         </div>
         <div class="col align-self-center">
-          <a href="#" class="text-light">Impressum</a> | <a href="#" class="text-light">Datenschutz</a>
+          <a href="assets/html/impressum.html" class="text-light">Impressum</a> | <a href="assets/html/data.html" class="text-light">Datenschutz</a>
         </div>
       </div>
       <div class="row bg-light text-dark  pt-1">
@@ -164,5 +161,11 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      <!-- Bootstrap JavaScript -->
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <!-- Custom JavaScript -->
+     <script src="js/betterbooks.js"></script>
+     <script src="js/script.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/QuizContainer.js"></script>
+
   </body>
 </html>
