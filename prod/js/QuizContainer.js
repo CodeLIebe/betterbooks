@@ -1,7 +1,8 @@
 class QuizContainer extends HTMLElement {
     connectedCallback(){
         this.innerHTML = `
-            <main class="container-fluid fixed-top bg-light">
+
+    <main class="container-fluid fixed-top bg-light">
                 <div id="startScreen" class="jumbotron quizStart">
                  <h2>Herzlich Willkommen!</h2>
                  <p>Drücken Sie "Jetzt starten" um das Quiz zu beginnen</p>
@@ -10,7 +11,7 @@ class QuizContainer extends HTMLElement {
                 <div id="endScreen" class="jumbotron quizEnd" style="display: none">
                  <h2>Quiz Vorbei!</h2>
                  <p>Dein Punktestand ist: <span id="numberOfRightAnswers">0</span> von 3</p>
-                 <p><button id="end_btn" class="btn btn-primary btn-block" onclick="endQuiz()">Schließen</button></p>
+                 <p><button id="end_btn" class="btn btn-primary btn-block">Schließen</button></p>
                 </div>
                 <div id="question" class="jumbotron quizRunning" style="display: none">
                  <h2>Frage <span id="questionNumber">0</span></h2>

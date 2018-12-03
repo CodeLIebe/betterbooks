@@ -94,6 +94,10 @@ function endQuiz() {
     });
 }
 
+function showQuiz() {
+    // hide the quiz div and present the question
+    document.getElementById("StartPage").innerHTML = "<quiz-container/>";
+}
 
 
 
