@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="quiz.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+            <state relative-caret-position="396">
+              <caret line="105" column="65" lean-forward="false" selection-start-line="105" selection-start-column="65" selection-end-line="105" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -37,51 +37,30 @@
       <file leaf-file-name="QuizContainer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/QuizContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="33" />
               <folding>
-                <marker date="1543859942026" expanded="true" signature="131:1814" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="180:1799" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="220:337" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="302:309" ph="×" />
-                <marker date="1543859942026" expanded="true" signature="393:670" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="732:745" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="746:1025" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="1086:1099" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="1100:1779" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="1821:3330" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="1874:3329" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="1941:2213" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="2284:2297" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="2298:2551" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="2625:2638" ph="..." />
-                <marker date="1543859942026" expanded="true" signature="2639:3309" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="174:1789" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="214:331" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="296:303" ph="×" />
+                <marker date="1543860308061" expanded="true" signature="387:664" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="726:739" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="740:1019" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="1080:1093" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="1094:1773" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="1796:3305" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="1849:3304" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="1916:2188" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="2259:2272" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="2273:2526" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="2600:2613" ph="..." />
+                <marker date="1543860308061" expanded="true" signature="2614:3284" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="betterbooks.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/betterbooks.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="114" column="14" lean-forward="false" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="53">
@@ -119,9 +98,9 @@
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/style/betterbooks.css" />
-        <option value="$PROJECT_DIR$/js/quiz.js" />
-        <option value="$PROJECT_DIR$/js/QuizContainer.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/QuizContainer.js" />
+        <option value="$PROJECT_DIR$/js/quiz.js" />
       </list>
     </option>
   </component>
@@ -258,12 +237,12 @@
       <workItem from="1543685804378" duration="599000" />
       <workItem from="1543686991058" duration="2411000" />
       <workItem from="1543689527926" duration="7734000" />
-      <workItem from="1543847800579" duration="7585000" />
+      <workItem from="1543847800579" duration="8104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18329000" />
+    <option name="totallyTimeSpent" value="18848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,10 +407,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
+    <entry file="file://$PROJECT_DIR$/style/betterbooks.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="-395">
+          <caret line="114" column="14" lean-forward="false" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -444,44 +423,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/betterbooks.css">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="114" column="14" lean-forward="false" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
+        <state relative-caret-position="450">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/QuizContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1543859942026" expanded="true" signature="131:1814" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="180:1799" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="220:337" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="302:309" ph="×" />
-            <marker date="1543859942026" expanded="true" signature="393:670" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="732:745" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="746:1025" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="1086:1099" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="1100:1779" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="1821:3330" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="1874:3329" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="1941:2213" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="2284:2297" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="2298:2551" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="2625:2638" ph="..." />
-            <marker date="1543859942026" expanded="true" signature="2639:3309" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -489,6 +435,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/QuizContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <marker date="1543860308061" expanded="true" signature="174:1789" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="214:331" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="296:303" ph="×" />
+            <marker date="1543860308061" expanded="true" signature="387:664" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="726:739" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="740:1019" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="1080:1093" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="1094:1773" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="1796:3305" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="1849:3304" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="1916:2188" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="2259:2272" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="2273:2526" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="2600:2613" ph="..." />
+            <marker date="1543860308061" expanded="true" signature="2614:3284" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="105" column="65" lean-forward="false" selection-start-line="105" selection-start-column="65" selection-end-line="105" selection-end-column="65" />
           <folding />
         </state>
       </provider>

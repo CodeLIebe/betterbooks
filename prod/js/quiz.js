@@ -90,18 +90,24 @@ function endQuiz() {
         // Inject total number of correct answers
         $("#numberOfRightAnswers").text(numberOfRightAnswers);
         // Show result page
-        $(".quizEnd").show();
+        $("#endScreen").show();
     });
 }
 
+// This method is called when the user wants to start the quiz
 function showQuiz() {
-    // show the quiz div and present the question
+    // show the quiz pop up
     document.getElementById('modal-wrapper').style.display='block'
 }
 
+// This method is called when the user closes or finished the quiz
 function hideQuiz() {
-    // show the quiz div and present the question
+    // hide the quiz pop up
     document.getElementById('modal-wrapper').style.display='none'
+    // Reset variables
+    currentQuestionNumber = 0;
+    numberOfRightAnswers = 0;
+
 }
 
 

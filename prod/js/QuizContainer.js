@@ -1,9 +1,8 @@
 class QuizContainer extends HTMLElement {
     connectedCallback(){
+    //<form class="modal-content animate">
         this.innerHTML = `
 <div id="modal-wrapper" class="modal">
-
-           <form class="modal-content animate">
 
                <div class="container">
                    <span class="close" onclick="hideQuiz()" title="Close PopUp">&times;</span>
@@ -26,7 +25,6 @@ class QuizContainer extends HTMLElement {
                    <p><button id="answerButtonC" class="btn btn-primary btn-block" onclick="userAnswered('c')">3. <span id="answerC">Haha, sehr lustig!</span></button></p>
                </div>
 
-           </form>
 
        </div>
 
