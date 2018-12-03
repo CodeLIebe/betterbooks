@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <main class="container-fluid fixed-top bg-light">
+    <div id="start_screen" class="jumbotron quiz_start">
+        <h1>Herzlich Willkommen!</h1>
+        <p>Das Quiz startet sofort...</p>
+        <p><button id="start_btn" class="btn btn-primary btn-lg" role="button">Jetzt starten</button></p>
+    </div>
+    <div id="over" class="jumbotron quiz_end" style="display: none">
+        <h1>Quiz Vorbei!</h1>
+        <p>Dein Punktestand ist: <span id="numberOfRightAnswers">0</span> von 3</p>
+        <p><button id="end_btn" class="btn btn-primary btn-lg" role="button">Schließen</button></p>
+    </div>
+    <div id="question" class="jumbotron quiz_running" style="display: none">
+        <h2>Frage <span id="questionNumber">0</span></h2>
+        <p id="questionText">Was ist schwerer? Ein Kilo Gold oder ein Kilo Federn?</p>
+        <p><button id="answerButtonA" class="btn btn-primary btn-lg" role="button">1. <span id="answerA">Gold</span></button></p>
+        <p><button id="answerButtonB" class="btn btn-primary btn-lg" role="button">2. <span id="answerB">Federn</span></button></p>
+        <p><button id="answerButtonC" class="btn btn-primary btn-lg" role="button">3. <span id="answerC">Haha, sehr lustig!</span></button></p>
+    </div>
+    </main>
+</body>
+</html>

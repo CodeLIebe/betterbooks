@@ -70,7 +70,7 @@ function userAnswered(value) {
         numberOfRightAnswers += 1;
     }
     // Increase current question
-    currentQuestionNumber++;
+    currentQuestionNumber += 1;
     // Present next question
     nextQuestion();
 }
@@ -78,7 +78,7 @@ function userAnswered(value) {
 // This method is called if user starts the quiz
 function startQuiz() {
     // hide the quiz div and present the question
-    $(".quiz_start").fadeOut(function () {
+    $(".quizStart").fadeOut(function () {
         nextQuestion();
         $("#question").show();
     });
@@ -90,7 +90,7 @@ function endQuiz() {
         // Inject total number of correct answers
         $("#numberOfRightAnswers").text(numberOfRightAnswers);
         // Show result page
-        $(".quiz_end").show();
+        $(".quizEnd").show();
     });
 }
 
