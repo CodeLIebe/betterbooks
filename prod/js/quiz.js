@@ -78,7 +78,7 @@ function userAnswered(value) {
 // This method is called if user starts the quiz
 function startQuiz() {
     // hide the quiz div and present the question
-    $(".quizStart").fadeOut(function () {
+    $("#startScreen").fadeOut(function () {
         nextQuestion();
         $("#question").show();
     });
@@ -95,9 +95,15 @@ function endQuiz() {
 }
 
 function showQuiz() {
-    // hide the quiz div and present the question
-    document.getElementById("StartPage").innerHTML = "<quiz-container/>";
+    // show the quiz div and present the question
+    document.getElementById('modal-wrapper').style.display='block'
 }
+
+function hideQuiz() {
+    // show the quiz div and present the question
+    document.getElementById('modal-wrapper').style.display='none'
+}
+
 
 
 
