@@ -1,8 +1,8 @@
 .bestseller {
   position: relative;
-  width: 90%;
+  width: 100%;
   overflow: hidden;
-  display: inline-block;
+  //display: inline-block;
 }
 
 .bestseller .overlay {
@@ -30,9 +30,9 @@
   position: absolute;
 //text-align: center;
   //margin: 0 0 0 0;
-  width: 90%;
+  width: 100%;
   top: 75%;
-  left: 30%;
+  left: 35%;
   opacity: 0;
   transform: translate(-30%, -50%);
   transition: all 0.3s ease-in-out 0s;
@@ -55,7 +55,7 @@
 
 .bestseller:hover .overlay-content{
   top: 75%;
-  left: 30%;
+  left: 35%;
   opacity: 1;
 }
 

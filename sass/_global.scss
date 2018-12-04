@@ -48,14 +48,26 @@ h3 {
     line-height: 1.2;
 }
 
-.h-85 {
-  height: 85vh;
-  //overflow: auto;
-}
+.h-80 {
+  height: 80%; }
 
-.h-60 {
-  height: 60vh;
-}
+.h-65 {
+  height: 65%; }
+
+.h-35 {
+  height: 35%; }
+
+.h-20 {
+  height: 20%; }
+
+.vh-65 {
+  height: 65vh; }
+
+.vh-50 {
+  height: 50vh; }
+
+.vh-25 {
+  height: 25vh; }
 
 .overflow {
   overflow-y: auto;
@@ -80,9 +92,6 @@ h3 {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .h-60 {
-    height: 50vh;
-  }
 }
 
 // Extra large devices (large desktops, 1200px and up)

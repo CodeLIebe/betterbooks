@@ -89,6 +89,12 @@ function endQuiz() {
     $("#question").fadeOut(function () {
         // Inject total number of correct answers
         $("#numberOfRightAnswers").text(numberOfRightAnswers);
+    		//show quiz result
+    		if (numberOfRightAnswers != 3) {
+    			$("#lost").show();
+    		} else {
+    		  $("#won").show();
+    		} 
         // Show result page
         $("#endScreen").show();
     });
@@ -109,8 +115,3 @@ function hideQuiz() {
     numberOfRightAnswers = 0;
 
 }
-
-
-
-
-

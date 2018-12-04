@@ -15,3 +15,11 @@ $(document).ready(function () {
         clickDropdown();
     });
 });
+
+
+//close quiz when clicked in overlay
+$("#modal-wrapper").on('click', function () { 
+   hideQuiz();
+}).children().on('click', function (e) {
+    e.stopPropagation();
+});

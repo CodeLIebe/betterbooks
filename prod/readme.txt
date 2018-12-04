@@ -32,3 +32,7 @@ Make dropup parent clickable link - open source code frm Code Pen by Pascale Bei
 -------------
 https://www.youtube.com/watch?v=yafNKsqZ4cA
 https://lerneprogrammieren.de/tutorial-3-quiz-programmieren/
+-------------
+--Quiz Answer
+-------------
+correct answers: 3,2,3 

@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Better Books</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+	
    <!-- Bootstrap minified CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <!-- Custom CSS -->
@@ -17,19 +16,19 @@
  <body>
 
    <!-- MAIN CONTENT -->
-   <main id="StartPage" class="container-fluid fixed-top bg-light h-85">
-     <div class="row ">
+   <main id="StartPage" class="container-fluid fixed-top bg-light">
+     <div class="row">
        <div class="col-8">
-         <div class="row">
-          <div class="col border p-4">
+         <div class="row h-35">
+          <div class="col p-4">
             <!-- bestseller --->
              <div class="bestseller">
                <a href="#">
               <div class="overlay"></div>
-              <img class="overlay-img" src="assets/img/book1.png" alt="Bestseller 1">
+              <img class="overlay-img vh-25 img-fluid" src="assets/img/book1.png" alt="Bestseller 1">
               <!-- overlay content -->
               <div class="overlay-content fadeIn-left">
-                <h3 class="">
+                <h3>
                   <img src="assets/ics/arrow-white.png" alt="arrow icon">This is a bestseller
                 </h3>
                 <p>
@@ -41,16 +40,16 @@
            <!-- end bestseller -->
           </div> <!-- end col -->
          </div> <!-- end row bestseller 1-->
-         <div class="row">
-           <div class="col-7 border p-4">
+         <div class="row h-65">
+           <div class="col-7 align-self-end h-100 p-4">
             <!-- bestseller --->
              <div class="bestseller">
                <a href="#">
               <div class="overlay"></div>
-              <img class="overlay-img" src="assets/img/book3.png" alt="Bestseller 3">
+              <img class="overlay-img vh-50 img-fluid" src="assets/img/book3.png" alt="Bestseller 3">
               <!-- overlay content -->
               <div class="overlay-content fadeIn-bottom">
-                <h3 class="">
+                <h3>
                   <img src="assets/ics/arrow-white.png" alt="arrow icon">This is a bestseller
                 </h3>
                 <p>
@@ -61,25 +60,25 @@
              </div>
            <!-- end bestseller -->
            </div> <!-- end col-7 -->
-           <div class="col-5 border text-center p-3">
-             <img src="assets/img/logo.png" alt="Better Books Logo">
+           <div class="col-5 text-center p-3">
+             <img src="assets/img/logo.png" class="pl-5" alt="Better Books Logo">
              <p>
-              <a href="#"><b>Alle Bücher ansehen!</b></a>
+              <a href="docs/store.html"><b>Alle Bücher ansehen!</b></a>
              </p>
            </div> <!-- end col-5 -->
           </div><!-- end row -->
        </div> <!-- end col-8 (left side) -->
        <div class="col-4">
-         <div class="row">
-           <div class="col border p-4">
+         <div class="row h-80">
+           <div class="col h-100 p-4">
              <!-- bestseller --->
               <div class="bestseller ">
                 <a href="#">
                <div class="overlay"></div>
-               <img class="overlay-img" src="assets/img/book2.png" alt="Bestseller 2">
+               <img class="overlay-img vh-65 img-fluid" src="assets/img/book2.png" alt="Bestseller 2">
                <!-- overlay content -->
                <div class="overlay-content fadeIn-bottom">
-                 <h3 class="">
+                 <h3>
                    <img src="assets/ics/arrow-white.png" alt="arrow icon">This is a bestseller
                  </h3>
                  <p>
@@ -91,8 +90,8 @@
             <!-- end bestseller -->
            </div> <!-- end col -->
          </div> <!-- end row  bestseller 2-->
-         <div class="row">
-           <div class="col border p-4">
+         <div class="row h-20">
+           <div class="col d-flex align-self-end h-100 p-4">
              <button type="button" name="button" class="btn btn-primary btn-block" onclick="showQuiz()">
                <img src="assets/ics/cta-white.png" alt="white bar">
                Neueste Bestseller gewinnen!
@@ -168,10 +167,10 @@
      <!-- Bootstrap JavaScript -->
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
      <!-- Custom JavaScript -->
-     <script src="js/betterbooks.js"></script>
      <script src="js/script.js"></script>
      <script src="js/quiz.js"></script>
      <script src="js/QuizContainer.js"></script>
+	 <script src="js/betterbooks.js"></script>
 
   </body>
 </html>
