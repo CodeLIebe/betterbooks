@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.27)  5 DEC 2018 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.27)  5 DEC 2018 22:55
 entering extended mode
 **./doku.tex
 (doku.tex
@@ -891,37 +891,37 @@ LaTeX Info: Redefining \nameref on input line 55.
 \openout4 = `doku.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 <../logo.png, id=6, 247.67531pt x 219.82124pt>
 File: ../logo.png Graphic file (type png)
 <use ../logo.png>
-Package pdftex.def Info: ../logo.png  used on input line 72.
+Package pdftex.def Info: ../logo.png  used on input line 71.
 (pdftex.def)             Requested size: 123.83734pt x 109.91034pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
@@ -932,53 +932,53 @@ go.png>]
 <../colors_fonts.png, id=19, 845.1575pt x 597.23125pt>
 File: ../colors_fonts.png Graphic file (type png)
 <use ../colors_fonts.png>
-Package pdftex.def Info: ../colors_fonts.png  used on input line 99.
+Package pdftex.def Info: ../colors_fonts.png  used on input line 98.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 [2 <../colors_fonts.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
 <../1_bookstore_main.png, id=24, 919.435pt x 596.2275pt>
 File: ../1_bookstore_main.png Graphic file (type png)
 <use ../1_bookstore_main.png>
-Package pdftex.def Info: ../1_bookstore_main.png  used on input line 121.
+Package pdftex.def Info: ../1_bookstore_main.png  used on input line 120.
 (pdftex.def)             Requested size: 459.71637pt x 298.11302pt.
 <../5_bookstore_quiz.png, id=25, 921.4425pt x 596.2275pt>
 File: ../5_bookstore_quiz.png Graphic file (type png)
 <use ../5_bookstore_quiz.png>
-Package pdftex.def Info: ../5_bookstore_quiz.png  used on input line 124.
+Package pdftex.def Info: ../5_bookstore_quiz.png  used on input line 123.
 (pdftex.def)             Requested size: 460.72012pt x 298.11302pt.
 <../2_bookstore_store.png, id=26, 919.435pt x 596.2275pt>
 File: ../2_bookstore_store.png Graphic file (type png)
 <use ../2_bookstore_store.png>
-Package pdftex.def Info: ../2_bookstore_store.png  used on input line 127.
+Package pdftex.def Info: ../2_bookstore_store.png  used on input line 126.
 (pdftex.def)             Requested size: 459.71637pt x 298.11302pt.
 [3 <../1_bookstore_main.png (PNG copy)> <../5_bookstore_quiz.png (PNG copy)>]
 <../3_bookstore_about.png, id=31, 919.435pt x 596.2275pt>
 File: ../3_bookstore_about.png Graphic file (type png)
 <use ../3_bookstore_about.png>
-Package pdftex.def Info: ../3_bookstore_about.png  used on input line 130.
+Package pdftex.def Info: ../3_bookstore_about.png  used on input line 129.
 (pdftex.def)             Requested size: 459.71637pt x 298.11302pt.
 <../4_bookstore_route.png, id=32, 919.435pt x 596.2275pt>
 File: ../4_bookstore_route.png Graphic file (type png)
 <use ../4_bookstore_route.png>
-Package pdftex.def Info: ../4_bookstore_route.png  used on input line 133.
+Package pdftex.def Info: ../4_bookstore_route.png  used on input line 132.
 (pdftex.def)             Requested size: 459.71637pt x 298.11302pt.
 
 [4 <../2_bookstore_store.png (PNG copy)> <../3_bookstore_about.png (PNG copy)>]
@@ -1007,7 +1007,7 @@ ur\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Websiteshop\AppData\Local\MiKTeX\2
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\We
 bsiteshop\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.
 pk>
-Output written on doku.pdf (5 pages, 712020 bytes).
+Output written on doku.pdf (5 pages, 712218 bytes).
 PDF statistics:
  232 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
