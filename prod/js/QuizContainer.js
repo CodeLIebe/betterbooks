@@ -3,19 +3,17 @@ class QuizContainer extends HTMLElement {
 	//class .container replaced by bootstrap classes: w-50 py-3 bg-light
         this.innerHTML = `
 		<div id="modal-wrapper" class="modal">
-			   
-               <div id="startScreen" class="modal-content w-50 py-3 bg-light text-center align-middle">
-					<div class="py-5">	
+          <div id="startScreen" class="modal-content w-50 py-3 bg-light text-center align-middle">
+					<div class="py-5">
 						<h2>Herzlich Willkommen!</h2>
 					   <p class="pt-5">Drücken Sie "Jetzt starten", um das Quiz zu beginnen</p>
 					   <p><button id="start_btn" class="btn btn-primary mt-5" onclick="startQuiz()">Jetzt starten</button></p>
 				   </div>
-               </div>
-               <div id="endScreen" class="modal-content w-50 py-3 bg-light text-center" style="display: none">
-					<div class="py-5">   
+          </div>
+          <div id="endScreen" class="modal-content w-50 py-3 bg-light text-center" style="display: none">
+					<div class="py-5">
 					   <h2 id="lost" style="display: none">Sorry! Leider verloren..</h2>
 					   <h2 id="won" style="display: none">Yey! Du hast gewonnen!</h2>
-					   <p class="pt-5">Dein Punktestand ist: <span id="numberOfRightAnswers">0</span> von 3</p>
 					   <p><button id="end_btn" class="btn btn-primary mt-5" onclick="hideQuiz()">Schließen</button></p>
 				   </div>
                </div>
@@ -26,8 +24,6 @@ class QuizContainer extends HTMLElement {
                    <p><button id="answerButtonB" class="btn btn-primary " onclick="userAnswered('b')">2. <span id="answerB">Federn</span></button></p>
                    <p><button id="answerButtonC" class="btn btn-primary " onclick="userAnswered('c')">3. <span id="answerC">Haha, sehr lustig!</span></button></p>
                </div>
-			
-
 		</div>
 
             `;

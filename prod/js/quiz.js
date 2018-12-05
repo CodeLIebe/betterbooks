@@ -68,11 +68,14 @@ function userAnswered(value) {
     if (value === currentQuestion.rightAnswer) {
         // Increase number of right answers
         numberOfRightAnswers += 1;
+        // Increase current question
+        currentQuestionNumber += 1;
+        // Present next question
+        nextQuestion();
+    }else{
+        endQuiz();
     }
-    // Increase current question
-    currentQuestionNumber += 1;
-    // Present next question
-    nextQuestion();
+
 }
 
 // This method is called if user starts the quiz
@@ -94,7 +97,7 @@ function endQuiz() {
     			$("#lost").show();
     		} else {
     		  $("#won").show();
-    		} 
+    		}
         // Show result page
         $("#endScreen").show();
     });
