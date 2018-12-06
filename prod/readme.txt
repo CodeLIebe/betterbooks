@@ -2,6 +2,15 @@ Browser: Chrome
 
 ______________________________________
 
+              Authors
+______________________________________
+
+Elisabeth Fughe: Mat.-Nr. 5263769
+mostly Exercise 1 und 2
+Amer El-Ankah: Amer El-Ankah
+mostly Exercise 3
+______________________________________
+
               Source
 ______________________________________
 
@@ -19,27 +28,27 @@ Work Sans - Free use under Open Font License - https://fonts.google.com/specimen
 -------------
 --Images on website
 -------------
-Book Cover (Leaves) designed <a href='https://www.freepik.com/free-vector/wedding-photography-book-with-watercolor-leaves_2956011.htm'>by BiZkettE1</a>
-Book Cover (Mock up - square) <a href='https://www.freepik.com/free-psd/square-book-mockup_1435914.htm'>Designed by Yeven_popov</a>
-Open book (Bike riders) designed by<a href='https://www.freepik.com/free-psd/stationery-mockup-with-open-bool_1532485.htm'>Freepik</a>
-Feather used in logo and icon designed by<a href='https://www.freepik.com/free-vector/sketchy-feathers-pack_759744.htm'>Freepik</a>
+Book Cover (Leaves): https://www.freepik.com/free-vector/wedding-photography-book-with-watercolor-leaves_2956011.htm - Free Psd - Author: Freepik - Last visited date: 5.12.2018
+Book Cover (Mock up - square): https://www.freepik.com/free-psd/square-book-mockup_1435914.htm - Free Psd - Author: Yeven_popov/Freepik - Last visited date: 5.12.2018
+Open book (Bike riders): https://www.freepik.com/free-psd/stationery-mockup-with-open-bool_1532485.htm - Free Psd - Author: Freepik - Last visited date: 5.12.2018
+Feather used in logo and icon: https://www.freepik.com/free-vector/sketchy-feathers-pack_759744.htm - Free Psd - Author: Freepik - Last visited date: 5.12.2018
 - other icons self-made using Illustrator
 --------------------------
 --Images in Mock ups
 --------------------------
-Map in Mockups : <a href='https://www.freepik.com/free-vector/map-pin-in-a-map_714013.htm'>Designed by Freepik</a>
-Book Cover (Travel & The end of the boundaries) used in mock ups designed by<a href='https://www.freepik.com/free-psd/book-cover-template_863591.htm'>Qeaql-studio</a>
-Book Cover used in mockups designed by<a href='https://www.freepik.com/free-psd/book-cover-mockup-of-two_2740407.htm'>Freepik</a>
+Map in Mockups: https://www.freepik.com/free-vector/map-pin-in-a-map_714013.htm - Free Psd - Author: Illustrations - Last visited date: 5.12.2018
+Book Cover (Travel & The end of the boundaries) used in mock ups: https://www.freepik.com/free-psd/book-cover-template_863591.htm - Free Psd - Author: Qeaql-studio/Freepik - Last visited date: 5.12.2018
+Book Cover used in mockups: https://www.freepik.com/free-psd/book-cover-mockup-of-two_2740407.htm - Free Psd - Author: Freepik - Last visited date: 5.12.2018
 -------------
 --Code Pen
 -------------
-Make dropup parent clickable link - open source code frm Code Pen by Pascale Beier - https://codepen.io/PascaleBeier/pen/BdgPre
+Make dropup parent clickable link - open source code from Code Pen by Pascale Beier - https://codepen.io/PascaleBeier/pen/BdgPre - Author: Pascale Beier - Last visited date: 5.12.2018
 -------------
 --Tutorials
 -------------
-https://www.youtube.com/watch?v=yafNKsqZ4cA
-https://lerneprogrammieren.de/tutorial-3-quiz-programmieren/
+https://www.youtube.com/watch?v=yafNKsqZ4cA - Last visited date: 5.12.2018
+https://lerneprogrammieren.de/tutorial-3-quiz-programmieren/ - Last visited date: 5.12.2018
 -------------
 --Quiz Answer
 -------------
-correct answers: 3,2,3 
+correct answers: 3,2,3
