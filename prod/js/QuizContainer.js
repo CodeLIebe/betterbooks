@@ -14,15 +14,15 @@ class QuizContainer extends HTMLElement {
 					<div class="py-5">
 					   <h2 id="lost" style="display: none">Sorry! Leider verloren..</h2>
 					   <h2 id="won" style="display: none">Yey! Du hast gewonnen!</h2>
-					   <p><button id="end_btn" class="btn btn-primary mt-5" onclick="hideQuiz()">Schließen</button></p>
+					   <p><button id="end_btn" class="btn btn-primary  btn-wrap-text mt-5" onclick="hideQuiz()">Schließen</button></p>
 				   </div>
                </div>
                <div id="question" class="modal-content w-50 py-3 bg-light text-center" style="display: none">
                    <p class="display-6">Frage <span id="questionNumber">0</span></p>
                    <h2 id="questionText">Was ist schwerer? Ein Kilo Gold oder ein Kilo Federn?</h2>
-                   <p><button id="answerButtonA" class="btn btn-primary " onclick="userAnswered('a')">1. <span id="answerA">Gold</span></button></p>
-                   <p><button id="answerButtonB" class="btn btn-primary " onclick="userAnswered('b')">2. <span id="answerB">Federn</span></button></p>
-                   <p><button id="answerButtonC" class="btn btn-primary " onclick="userAnswered('c')">3. <span id="answerC">Haha, sehr lustig!</span></button></p>
+                   <p><button id="answerButtonA" class="btn btn-primary btn-wrap-text " onclick="userAnswered('a')">1. <span id="answerA">Gold</span></button></p>
+                   <p><button id="answerButtonB" class="btn btn-primary btn-wrap-text" onclick="userAnswered('b')">2. <span id="answerB">Federn</span></button></p>
+                   <p><button id="answerButtonC" class="btn btn-primary btn-wrap-text" onclick="userAnswered('c')">3. <span id="answerC">Haha, sehr lustig!</span></button></p>
                </div>
 		</div>
 

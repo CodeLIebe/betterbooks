@@ -16,13 +16,22 @@
  <body>
 
    <!-- MAIN CONTENT -->
-   <main id="StartPage" class="container-fluid fixed-top bg-light overflow">
+   <div id="StartPage" class="container-fluid bg-light mb-7">
+     <!-- display Mobile Logo only on devices smaller or equal xs -->
      <div class="row">
-       <div class="col-8">
+    	<div class="col text-center p-3 d-block d-lg-none">
+         <img src="assets/img/logo.png" class="img-fluid pl-5" alt="Better Books Logo">
+         <p>
+          <a href="docs/store.html"><b>Alle Bücher ansehen!</b></a>
+         </p>
+      </div>
+     </div><!-- end Mobile Logo -->
+     <div class="row">
+       <div class="col-lg-8 col-md-12">
          <div class="row h-35">
-          <div class="col p-4">
+          <div class="col p-4 h-100">
             <!-- bestseller --->
-             <div class="bestseller">
+             <div class="bestseller h-100">
                <a href="#">
               <div class="overlay"></div>
               <img class="overlay-img vh-25 img-fluid" src="assets/img/book1.jpg" alt="Bestseller 1">
@@ -41,9 +50,9 @@
           </div> <!-- end col -->
          </div> <!-- end row bestseller 1-->
          <div class="row h-65">
-           <div class="col-7 align-self-end h-100 p-4">
+           <div class="col-lg-7 col-12 h-100 p-4">
             <!-- bestseller --->
-             <div class="bestseller">
+             <div class="bestseller h-100">
                <a href="#">
               <div class="overlay"></div>
               <img class="overlay-img vh-50 img-fluid" src="assets/img/book3.jpg" alt="Bestseller 3">
@@ -60,19 +69,20 @@
              </div>
            <!-- end bestseller -->
            </div> <!-- end col-7 -->
-           <div class="col-5 text-center p-3">
-             <img src="assets/img/logo.png" class="pl-5" alt="Better Books Logo">
+		   <!-- display Logo in center of page only on screens bigger or equal sm -->
+           <div class="col-lg-5 text-center p-3 d-none d-sm-block">
+             <img src="assets/img/logo.png" class="img-fluid pl-5" alt="Better Books Logo">
              <p>
               <a href="docs/store.html"><b>Alle Bücher ansehen!</b></a>
              </p>
            </div> <!-- end col-5 -->
           </div><!-- end row -->
        </div> <!-- end col-8 (left side) -->
-       <div class="col-4">
+       <div class="col-lg-4">
          <div class="row h-80">
            <div class="col h-100 p-4">
              <!-- bestseller --->
-              <div class="bestseller ">
+              <div class="bestseller h-100">
                 <a href="#">
                <div class="overlay"></div>
                <img class="overlay-img vh-65 img-fluid" src="assets/img/book2.jpg" alt="Bestseller 2">
@@ -91,8 +101,8 @@
            </div> <!-- end col -->
          </div> <!-- end row  bestseller 2-->
          <div class="row h-20">
-           <div class="col d-flex align-self-end h-100 p-4">
-             <button type="button" name="button" class="btn btn-primary btn-block" onclick="showQuiz()">
+           <div class="col d-flex align-self-middle p-4">
+             <button type="button" name="button" class="btn btn-primary btn-block btn-wrap-text" onclick="showQuiz()">
                <img src="assets/ics/cta-white.png" alt="white bar">
                Neueste Bestseller gewinnen!
              </button>
@@ -100,10 +110,12 @@
         </div> <!-- end row CTA -->
 
        </div> <!-- end col-4 (right side) -->
+
       </div> <!-- end row -->
       <!-- Custom Element: Quiz Container-->
        <quiz-container/>
-    </main> <!-- end container-fluid -->
+
+    </div> <!-- MAIN end container-fluid -->
 
    <!-- FOOTER -->
     <footer class="container-fluid bg-dark text-light fixed-bottom">

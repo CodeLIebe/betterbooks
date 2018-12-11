@@ -44,6 +44,12 @@ a {
   }
 }
 //-----------------------------------------
+//  Add Margin Class
+//-----------------------------------------
+.mb-7 {
+	margin-bottom: 7rem;
+}
+//-----------------------------------------
 //   CUSTOM BUTTON STYLES - used as CTA
 //-----------------------------------------
 //remove rounded corners
@@ -65,6 +71,7 @@ a {
   color: $white;
   font-weight: 200;
   font-size: 140%;
+  min-height: 7rem;
 }
 
 .btn-primary,
@@ -83,4 +90,9 @@ a {
   box-shadow: 0 0 0 0.2rem rgba(217,166,40,.5);
   background-color: $curry;
   border-color: $curry;
+}
+//avoid text overflow
+.btn-wrap-text {
+	white-space: normal;
+	word-wrap: break-word;
 }

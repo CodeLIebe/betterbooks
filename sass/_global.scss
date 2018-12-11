@@ -69,16 +69,34 @@ h3 {
 .vh-25 {
   height: 25vh; }
 
-  .overflow {
-    overflow-y: auto;
-  }
-}
+.overflow {
+    overflow-y:auto; }
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media and (min-width: 576px) {
+@media (min-width: 320px) and (max-width: 992px) {
+     .overlay-img {
+  	   height: 100%!important;
+     }
+  	.overlay-content {
+  		padding: 1rem;
+  	}
+  	.modal-content {
+  		white-space: normal;
+  		word-wrap: break-word;
+  		transform: translate(50%, 10%)!important;
+  	}
+
+  	.mb-7 {
+  	   margin-bottom: 11rem!important; }
+
+  	.btn-primary{
+  	  min-height: 7rem;
+  	}
+   }
+
 
 
 // Medium devices (tablets, 768px and up)
