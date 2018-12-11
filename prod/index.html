@@ -16,7 +16,7 @@
  <body>
 
    <!-- MAIN CONTENT -->
-   <main id="StartPage" class="container-fluid fixed-top bg-light">
+   <main id="StartPage" class="container-fluid fixed-top bg-light overflow">
      <div class="row">
        <div class="col-8">
          <div class="row h-35">
@@ -108,15 +108,19 @@
    <!-- FOOTER -->
     <footer class="container-fluid bg-dark text-light fixed-bottom">
       <div class="row">
-        <div class="col-10">
+        <div class="col-lg-9 col-md-8 col-sm-3 col-2">
            <!-- NAVBAR -->
-           <nav class="navbar navbar-expand-lg">
+           <nav class="navbar navbar-dark navbar-expand-md">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto"><img src="assets/ics/feather.png" />
+                <ul class="navbar-nav mr-auto">
+                  <!-- hide feather on screens larger lg -->
+                  <div class="d-none d-lg-block">
+                    <img src="assets/ics/feather.png" />
+                  </div>
                   <li class="nav-item">
                     <a class="nav-link" href="index.html">Startseite</a>
                   </li>
@@ -136,7 +140,7 @@
             </nav>
         <!-- NAVBAR end -->
         </div>
-        <div class="col align-self-center">
+        <div class="col-lg-3 col-md-4 col-sm-9 col-10 text-right align-self-center">
           <a href="docs/impressum.html" class="text-light">Impressum</a> | <a href="docs/data.html" class="text-light">Datenschutz</a>
         </div>
       </div>

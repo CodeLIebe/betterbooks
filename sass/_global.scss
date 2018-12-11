@@ -69,25 +69,28 @@ h3 {
 .vh-25 {
   height: 25vh; }
 
-.overflow {
-  overflow-y: auto;
+  .overflow {
+    overflow-y: auto;
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { }
+@media and (min-width: 576px) {
+
 
 // Medium devices (tablets, 768px and up)
 @media(min-width: 768px) {
-    .dropdown:hover .dropdown-menu {
+  .dropdown:hover .dropdown-menu {
       display: block;
     }
 
   .dropdown-menu {
     margin-top: 0 !important;
   }
+
 }
 
 // Large devices (desktops, 992px and up)

@@ -25,3 +25,9 @@ a.text-light {
     background-color: transparent;
   }
 }
+
+//remove blue/yellow outline when clicked on icon
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}

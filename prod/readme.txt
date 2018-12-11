@@ -6,9 +6,9 @@ ______________________________________
 ______________________________________
 
 Elisabeth Fughe: Mat.-Nr. 5263769
-mostly Exercise 1 und 2
+mostly Exercise 2
 Amer El-Ankah: Mat.-Nr. 5750818
-mostly Exercise 3
+mostly Exercise 1
 ______________________________________
 
               Source

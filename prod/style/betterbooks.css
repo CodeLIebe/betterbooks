@@ -68,8 +68,9 @@ h3 {
 .vh-25 {
   height: 25vh; }
 
-.overflow {
-  overflow-y: auto; }
+@media (min-width: 320px) and (max-width: 992px) {
+  .overflow {
+    overflow-y: auto; } }
 
 @media (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
@@ -96,6 +97,10 @@ a.text-light {
     color: #676365;
     text-decoration: none;
     background-color: transparent; }
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none; }
 
 .bestseller {
   position: relative;
@@ -150,14 +155,7 @@ a.text-light {
 .fadeIn-left {
   left: 20%; }
 
-/*
-.container {
-  background-color: $soft-grey;
-  width: 100%;
-  padding-bottom: 30px;
-}
-
- The Modal (background) */
+/* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
@@ -176,28 +174,6 @@ a.text-light {
           transform: translate(50%, 45%);
   min-height: 40vh; }
 
-/*
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: $dark-grey;
-  font-size: 35px;
-  font-weight: bold;
-}
-.close:hover,.close:focus {
-  color: $curry;
-  cursor: pointer;
-}
-
- Add Zoom Animation
-.animate {
-  animation: zoom 0.6s
-}
-@keyframes zoom {
-  from {transform: scale(0)}
-  to {transform: scale(1)}
-}*/
 .bg-dark {
   background-color: #333132 !important; }
 
