@@ -1,0 +1,259 @@
+.navbar {
+  font-family: "DJ Holly Jolly", "Work Sans light", sans-serif; }
+
+a.nav-link,
+a.text-light {
+  color: #fff; }
+  a.nav-link:hover, a.nav-link:focus, a.nav-link:active,
+  a.text-light:hover,
+  a.text-light:focus,
+  a.text-light:active {
+    color: #d9d9d9;
+    text-decoration: none; }
+
+.dropdown-item {
+  color: #000000; }
+  .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active, .dropdown-item.active {
+    color: #333333;
+    text-decoration: none;
+    background-color: transparent; }
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none; }
+
+.bestseller {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+
+.bestseller .overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 45%;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s; }
+
+.bestseller:hover .overlay {
+  opacity: 1; }
+
+.overlay-img {
+  width: 100%; }
+
+.overlay-content {
+  position: absolute;
+  width: 100%;
+  top: 75%;
+  left: 35%;
+  opacity: 0;
+  transform: translate(-30%, -50%);
+  transition: all 0.3s ease-in-out 0s; }
+
+.overlay-content h3,
+.overlay-content h4 {
+  font-family: "DJ Holly Jolly", "Work Sans light", sans-serif;
+  color: #fff;
+  font-weight: 400; }
+
+.overlay-content p {
+  color: #fff; }
+
+.bestseller:hover .overlay-content {
+  top: 75%;
+  left: 35%;
+  opacity: 1; }
+
+.fadeIn-bottom {
+  top: 80%; }
+
+.fadeIn-left {
+  left: 20%; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+/* Modal Content Box */
+.modal-content {
+  border-radius: 0 !important;
+  transform: translate(50%, 45%);
+  min-height: 40vh;
+  padding: 1rem; }
+
+.bg-dark {
+  background-color: #000000 !important; }
+
+.bg-light {
+  background-color: #0E0F10 !important; }
+
+.bg-primary {
+  background-color: #d9a625 !important; }
+
+.bg-white {
+  background-color: #fff; }
+
+.text-dark {
+  color: #fff !important; }
+
+.text-light {
+  color: #c4c4c4 !important; }
+
+.text-primary {
+  color: #d9a625 !important; }
+
+a {
+  color: #d9a625; }
+  a:hover, a:focus, a:active {
+    color: #98741a;
+    text-decoration: none; }
+
+.mb-7 {
+  margin-bottom: 7rem; }
+
+.btn {
+  border-radius: 0 !important; }
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0; }
+
+.btn-primary {
+  font-family: "DJ Holly Jolly", "Work Sans light", sans-serif;
+  color: #fff;
+  font-weight: 200;
+  font-size: 140%;
+  min-height: 7rem; }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #d9a625;
+  border-color: #d9a625; }
+
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(217, 166, 40, 0.5);
+  background-color: #d9a625;
+  border-color: #d9a625; }
+
+.btn-wrap-text {
+  white-space: normal;
+  word-wrap: break-word; }
+
+@font-face {
+  font-family: "Better Saturday";
+  src: url("../assets/fonts/BetterSaturday/BetterSaturday.ttf") format("truetype"); }
+@font-face {
+  font-family: "DJ Holly Jolly";
+  src: url("../assets/fonts/DJHollyJolly/DJHollyJolly.ttf") format("truetype"); }
+@font-face {
+  font-family: "Work Sans light";
+  src: url("../assets/fonts/WorkSans/WorkSans-Light.ttf") format("truetype"); }
+body {
+  font-family: "Work Sans light", sans-serif;
+  color: #000000;
+  background: #0E0F10; }
+
+h1 {
+  font-family: "Better Saturday", "DJ Holly Jolly", "Work Sans light", sans-serif;
+  background: #curry; }
+
+h2 {
+  font-family: "DJ Holly Jolly", "Work Sans light", sans-serif; }
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans light", sans-serif;
+  font-weight: 700;
+  color: #000000; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h3 {
+  font-size: 2rem; }
+
+.tiny {
+  font-size: 70%; }
+
+.super-tiny {
+  font-size: 60%; }
+
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.h-80 {
+  height: 80%; }
+
+.h-65 {
+  height: 65%; }
+
+.h-35 {
+  height: 35%; }
+
+.h-20 {
+  height: 20%; }
+
+.vh-65 {
+  height: 65vh; }
+
+.vh-50 {
+  height: 50vh; }
+
+.vh-25 {
+  height: 25vh; }
+
+.overflow {
+  overflow-y: auto; }
+
+@media (min-width: 320px) and (max-width: 992px) {
+  .overlay-img {
+    height: 100% !important; }
+
+  .overlay-content {
+    padding: 1rem; }
+
+  .modal-content {
+    white-space: normal;
+    word-wrap: break-word;
+    transform: translate(50%, 10%) !important; }
+
+  .mb-7 {
+    margin-bottom: 11rem !important; }
+
+  .btn-primary {
+    min-height: 7rem; } }
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block; }
+
+  .dropdown-menu {
+    margin-top: 0 !important; } }
+
+/*# sourceMappingURL=betterbooks_dark.css.map */
