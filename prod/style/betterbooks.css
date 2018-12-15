@@ -250,7 +250,15 @@ h3 {
   .mb-7 {
     margin-bottom: 11rem !important; }
   .btn-primary {
-    min-height: 7rem; } }
+    min-height: 7rem; }
+  .bestseller-list {
+    font-size: 1.1rem; }
+  .overlay-content p {
+    font-size: .7rem; }
+  .overlay-content h3,
+  .overlay-content h4 {
+    font-size: .9rem;
+    margin-top: 1rem; } }
 
 @media (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
