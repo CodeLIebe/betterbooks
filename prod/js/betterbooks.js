@@ -25,50 +25,21 @@ $("#modal-wrapper").on('click', function () {
     e.stopPropagation();
 });
 
-function toggle() {
+// This method changes the theme
+function changeTheme() {
   darkThemeSelected = !darkThemeSelected
   if(darkThemeSelected)
   {
-      alert("Dark");
+      // Change title
+      document.getElementById("themeButton").innerHTML = "Light-theme"
       // Show dark theme
       document.getElementById("theme").href="style/betterbooks_dark.css";
   }
   else
   {
-      alert("Light");
+      // Change title
+      document.getElementById("themeButton").innerHTML = "Dark-theme"
       // Show dark theme
       document.getElementById("theme").href="style/betterbooks_light.css";
   }
 }
-$("#theme-switch123").on('change', function() {
-    if ($(this).is(':checked')) {
-        darkThemeSelected = $(this).is(':checked');
-        document.getElementById("theme").href="style/betterbooks_light.css";
-        //alert(darkThemeSelected);// To verify
-    }
-    else {
-       darkThemeSelected = $(this).is(':checked');
-       document.getElementById("theme").href="style/betterbooks_dark.css";
-       //alert(darkThemeSelected);// To verify
-    }
-});
-
-
-$('#theme-switch123').click(function(){
-$('.tab').hide();
-darkThemeSelected = !darkThemeSelected
-darkThemeSelected = !darkThemeSelected
-if(darkThemeSelected)
-{
-    alert("Dark");
-    // Show dark theme
-    document.getElementById("theme").href="style/betterbooks_dark.css";
-}
-else
-{
-    alert("Light");
-    // Show dark theme
-    document.getElementById("theme").href="style/betterbooks_light.css";
-}
-//alert($('#myonoffswitch').attr('checked'));
-});
