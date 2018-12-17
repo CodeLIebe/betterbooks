@@ -75,7 +75,7 @@ h3 {
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
+// Small devices (landscape phones, 576px and up) xxs - lg (excluded)
 @media (min-width: 320px) and (max-width: 992px) {
      .overlay-img {
   	   height: 100%!important;
@@ -95,6 +95,17 @@ h3 {
   	.btn-primary{
   	  min-height: 7rem;
   	}
+    .bestseller-list {
+      font-size: 1.1rem;
+    }
+    .overlay-content p {
+      font-size: .7rem;
+    }
+    .overlay-content h3,
+    .overlay-content h4 {
+      font-size: .9rem;
+      margin-top: 1rem;
+    }
    }
 
 
