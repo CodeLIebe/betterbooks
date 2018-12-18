@@ -1,4 +1,4 @@
-var darkThemeSelected = false;
+var darkThemeSelected
 
 //make dropup parent clickable
 function clickDropdown() {
@@ -27,12 +27,12 @@ $("#modal-wrapper").on('click', function () {
 
 // This method changes the theme
 function changeTheme() {
-  darkThemeSelected = !darkThemeSelected
+  window.darkThemeSelected = !window.darkThemeSelected
   loadTheme()
 }
 
 function loadTheme() {
-  if(darkThemeSelected)
+  if(window.darkThemeSelected)
   {
     alert("Dark")
       // Change title
