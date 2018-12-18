@@ -14,7 +14,7 @@
    <!-- Fontawesom to integrate icons -->
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
  </head>
- <body>
+ <body onload="loadTheme('../style/')">
 
    <!-- MAIN CONTENT -->
    <div class="container-fluid bg-light h-100 mb-7">
@@ -286,7 +286,7 @@
         <!-- NAVBAR end -->
         </div>
         <div class="col-lg-3 col-md-4 col-sm-9 col-10 text-right align-self-center">
-          <a href="impressum.html" class="text-light">Impressum</a> | <a href="data.html" class="text-light">Datenschutz</a> | <a class="text-light" id="themeButton" onclick="changeTheme()">Dark-theme</a>
+          <a href="impressum.html" class="text-light">Impressum</a> | <a href="data.html" class="text-light">Datenschutz</a> | <a class="text-light" id="themeButton" onclick="changeTheme('../style/')">Dark-theme</a>
         </div>
       </div>
       <div class="row bg-light text-dark  pt-1">
