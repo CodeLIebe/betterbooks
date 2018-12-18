@@ -95,6 +95,20 @@ h3 {
   	.btn-primary{
   	  min-height: 7rem;
   	}
+    /* Quiz styles */
+    h2#questionText,
+    h2 {
+      font-size: 1.1rem;
+    }
+
+    button#start_btn,
+    button#answerButtonA,
+    button#answerButtonB,
+    button#answerButtonC,
+    button#end_btn {
+      font-size: .9rem;
+      min-height: 0!important;
+    }
    }
 
 
