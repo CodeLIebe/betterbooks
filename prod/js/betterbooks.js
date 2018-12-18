@@ -28,8 +28,13 @@ $("#modal-wrapper").on('click', function () {
 // This method changes the theme
 function changeTheme() {
   darkThemeSelected = !darkThemeSelected
+  loadTheme()
+}
+
+function loadTheme() {
   if(darkThemeSelected)
   {
+    alert("Dark")
       // Change title
       document.getElementById("themeButton").innerHTML = "Light-theme"
       // Show dark theme
@@ -37,6 +42,7 @@ function changeTheme() {
   }
   else
   {
+    alert("Light")
       // Change title
       document.getElementById("themeButton").innerHTML = "Dark-theme"
       // Show dark theme
