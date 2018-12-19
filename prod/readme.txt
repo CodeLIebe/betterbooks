@@ -52,3 +52,10 @@ https://lerneprogrammieren.de/tutorial-3-quiz-programmieren/ - Last visited date
 --Quiz Answer
 -------------
 correct answers: 3,2,3
+
+---------------
+--Other sources
+---------------
+Tritanomalie: https://www.brillen-sehhilfen.de/auge/tritanomalie-blauschsehschwaeche.php - Last visited date: 19.12.2018
+Deuteranopie: https://www.brillen-sehhilfen.de/auge/deuteranopie-gruenblindheit.php - Last visited date: 19.12.2018
+Presbyopie: https://www.sehtestbilder.de/weitsichtigkeit/altersweitsichtigkeit-presbyopie.php - Last visited date: 19.12.2018
