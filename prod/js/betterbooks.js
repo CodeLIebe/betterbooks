@@ -47,7 +47,7 @@ function loadTheme(stylePath) {
       document.getElementById("theme").href= stylePath + "betterbooks_dark.css";
       // Change the logo
       document.getElementById("logo").src= "assets/img/logo_light.png";
-
+      document.getElementById("logoMobile").src= "assets/img/logo_light.png";
   }
   else
   {
@@ -57,7 +57,7 @@ function loadTheme(stylePath) {
       document.getElementById("theme").href= stylePath + "betterbooks_light.css";
       // Change the logo
       document.getElementById("logo").src= "assets/img/logo.png";
-
+      document.getElementById("logoMobile").src= "assets/img/logo.png";
   }
   console.log(document.getElementById("logo").src);
 }
