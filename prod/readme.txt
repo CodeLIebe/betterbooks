@@ -59,3 +59,4 @@ correct answers: 3,2,3
 Tritanomalie: https://www.brillen-sehhilfen.de/auge/tritanomalie-blauschsehschwaeche.php - Last visited date: 19.12.2018
 Deuteranopie: https://www.brillen-sehhilfen.de/auge/deuteranopie-gruenblindheit.php - Last visited date: 19.12.2018
 Presbyopie: https://www.sehtestbilder.de/weitsichtigkeit/altersweitsichtigkeit-presbyopie.php - Last visited date: 19.12.2018
+Tool zum Simulieren von Farbschwächen: http://colororacle.org - Last visited date: 19.12.2018
