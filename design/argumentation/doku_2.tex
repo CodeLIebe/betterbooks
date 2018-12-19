@@ -1,0 +1,109 @@
+\documentclass[a4paper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some common includes. Add additional includes you need.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{ngerman}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[margin=23mm,bottom=30mm]{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{amsmath,amsfonts,amssymb,amsthm}
+\input kvmacros
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx} 
+\usepackage{tikz}
+\usepackage{tkz-graph}
+\usepackage{arydshln}
+\usepackage{multirow}
+\usetikzlibrary{calc}%
+\usepackage{ stmaryrd } %lightning in mathmode
+\usepackage{ wasysym } %average/diameter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Defines for mathematical notation. Add additional defines as needed.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\O{\mathcal{O}}
+\def\sort{\mathrm{sort}}
+\def\scan{\mathrm{scan}}
+\def\dist{\mathrm{dist}}
+\def\N{\mathcal{N}}
+\def\P{\mathcal{P}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definition of the assignment header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{header.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Set option "german" or "english", depending on what language the
+% default texts should be in.
+\ExecuteOptions{german}
+\ProcessOptions
+
+% Enter the lecture name and semester
+\lecture{Human Computer Interaction}
+\semester{WS 18/19}
+
+
+% Enter your data: Name, Matrikelnummer (student ID number) and group
+\student{Elisabeth Fughe }{5263769}{lol}
+\studentshort{Amer El-Ankah} {5750818}
+% Which assignment is this?
+\assignment{2}
+
+\usepackage{hyperref}
+
+\begin{document}
+\[\begin{exercise}{1 - Barrierefreiheit - Farbe} 
+Bei der Auswahl der Farben für das Light und Dark Theme sollten folgende Sehschwächen berücksichtigt werden:
+Tritanomalie (Blauschwäche)
+Deuteranopie (Grünblindheit)
+Presbyopie (Altersweitsichtigkeit)
+
+Aus diesem Grund war es besonders beim Dark Theme von großer Bedeutung die richtigen Farben zu wählen. 
+Wir haben uns an dieser Stelle dazu entschieden, dunkle Grauabstufungen bzw. Schwarz für die Hintergründe zu verwenden. Diese Grau- bzw. Schwarztöne werden im Vergleich zu dunklen Blautönen durch die Tritanomalie oder Deuteranopie kaum verändert und somit bleiben die Farben auch für Menschen mit diesen Sehschwächen fast unverändert (Bsp. Siehe unten). Zudem haben wir uns dafür entschieden eine weiße Schrift auf diesem Hintergrund zu verwenden, sodass auch für Menschen die an Altersweitsichtigkeit leiden die Seite gut lesbar bleibt, da sich die Schrift eindeutig von den Hintergrund abhebt. Auch die Bücherthumbnails haben einen weisen Hintergrund, damit dieser sich im Dark Theme gut vom Rest der Website abhebt und dadurch nochmal ein Fokus auf diese geworfen wird.
+
+Das Light Theme ist in den Farben unverändert, da diese bereits alle oben genannten Ansprüche erfüllt haben. An dieser Stelle haben wir davon abgesehen Hintergründe schwarz bzw grau zu gestalten um einen Fokus auf diese zu werfen, da das eher ungewöhnlich für Light Themes ist.
+Die Farben des Light Themes sind ebenfalls so gewählt, dass Tritanomalie oder Deuteranopie keinen Einfluss auf die Lesbarkeit der Website hat, wobei hier klar ist, dass sich die Farben für den Betrachten mit einer dieser Sehschwächen verändert, da helle Töne einfach mehr Blau bzw. Grünspektren besitzen.
+
+
+Farbwahl Dark Theme
+Dark-grey (Navigation Bar): #333132
+Light-grey: #bcbbbb
+Default-font-color: #000000
+
+Farbwahl Light Theme
+Dark-grey (Navigation Bar): #000000
+Light-grey: #0E0F10
+Default-font-color: #ffffff\\\\
+
+\begin{Large}
+\textbf{Tritanomalie Light Theme:}
+\end{Large}\\\\
+\begin{center}
+ \includegraphics[scale=0.5]{../6_bookstore_main_tritanomalie_light.png}
+ \end{center}
+\begin{Large}
+\textbf{Tritanomalie Dark Theme:}
+\end{Large}\\\\
+\begin{center}
+ \includegraphics[scale=0.5]{../7_bookstore_main_tritanomalie_dark.png}
+ \end{center}
+\begin{Large}
+\textbf{Deuteranopie Light Theme:}
+\end{Large}\\\\
+\begin{center}
+ \includegraphics[scale=0.5]{../8_bookstore_main_deuteranopie_light.png}
+ \end{center}
+\begin{Large}
+\textbf{Deuteranopie Dark Theme:}
+\end{Large}\\\\
+\begin{center}
+ \includegraphics[scale=0.5]{../9_bookstore_main_deuteranopie_dark.png}
+ \end{center}
+
+
+
+\end{exercise}
+
+\]
+\end{document}
