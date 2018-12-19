@@ -237,6 +237,13 @@ h3 {
 .overflow {
   overflow-y: auto; }
 
+button#start_btn,
+button#answerButtonA,
+button#answerButtonB,
+button#answerButtonC,
+button#end_btn {
+  min-height: 0 !important; }
+
 @media (min-width: 320px) and (max-width: 992px) {
   .overlay-img {
     height: 100% !important; }

@@ -72,6 +72,14 @@ h3 {
 .overflow {
     overflow-y:auto; }
 
+button#start_btn,
+button#answerButtonA,
+button#answerButtonB,
+button#answerButtonC,
+button#end_btn {
+  min-height: 0!important;
+}
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 

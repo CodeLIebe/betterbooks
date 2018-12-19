@@ -53,7 +53,7 @@
 \usepackage{hyperref}
 
 \begin{document}
-\[\begin{exercise}{1 - Barrierefreiheit - Farbe} 
+\begin{exercise}{1 - Barrierefreiheit - Farbe} 
 Bei der Auswahl der Farben für das Light und Dark Theme sollten folgende Sehschwächen berücksichtigt werden:
 Tritanomalie (Blauschwäche)
 Deuteranopie (Grünblindheit)
@@ -63,18 +63,15 @@ Aus diesem Grund war es besonders beim Dark Theme von großer Bedeutung die rich
 Wir haben uns an dieser Stelle dazu entschieden, dunkle Grauabstufungen bzw. Schwarz für die Hintergründe zu verwenden. Diese Grau- bzw. Schwarztöne werden im Vergleich zu dunklen Blautönen durch die Tritanomalie oder Deuteranopie kaum verändert und somit bleiben die Farben auch für Menschen mit diesen Sehschwächen fast unverändert (Bsp. Siehe unten). Zudem haben wir uns dafür entschieden eine weiße Schrift auf diesem Hintergrund zu verwenden, sodass auch für Menschen die an Altersweitsichtigkeit leiden die Seite gut lesbar bleibt, da sich die Schrift eindeutig von den Hintergrund abhebt. Auch die Bücherthumbnails haben einen weisen Hintergrund, damit dieser sich im Dark Theme gut vom Rest der Website abhebt und dadurch nochmal ein Fokus auf diese geworfen wird.
 
 Das Light Theme ist in den Farben unverändert, da diese bereits alle oben genannten Ansprüche erfüllt haben. An dieser Stelle haben wir davon abgesehen Hintergründe schwarz bzw grau zu gestalten um einen Fokus auf diese zu werfen, da das eher ungewöhnlich für Light Themes ist.
-Die Farben des Light Themes sind ebenfalls so gewählt, dass Tritanomalie oder Deuteranopie keinen Einfluss auf die Lesbarkeit der Website hat, wobei hier klar ist, dass sich die Farben für den Betrachten mit einer dieser Sehschwächen verändert, da helle Töne einfach mehr Blau bzw. Grünspektren besitzen.
-
-
-Farbwahl Dark Theme
-Dark-grey (Navigation Bar): #333132
-Light-grey: #bcbbbb
-Default-font-color: #000000
-
-Farbwahl Light Theme
-Dark-grey (Navigation Bar): #000000
-Light-grey: #0E0F10
-Default-font-color: #ffffff\\\\
+Die Farben des Light Themes sind ebenfalls so gewählt, dass Tritanomalie oder Deuteranopie keinen Einfluss auf die Lesbarkeit der Website hat, wobei hier klar ist, dass sich die Farben für den Betrachten mit einer dieser Sehschwächen verändert, da helle Töne einfach mehr Blau bzw. Grünspektren besitzen.\\\\
+Farbwahl Dark Theme\\
+Dark-grey (Navigation Bar): \#333132\\
+Light-grey: \#bcbbbb\\
+Default-font-color: \#000000 \\\\
+Farbwahl Light Theme\\
+Dark-grey (Navigation Bar): \#000000 \\
+Light-grey: \#0E0F10\\
+Default-font-color: \#ffffff\\\\
 
 \begin{Large}
 \textbf{Tritanomalie Light Theme:}
@@ -102,8 +99,30 @@ Default-font-color: #ffffff\\\\
  \end{center}
 
 
+\end{exercise}
+\newpage
+\begin{exercise}{2 - Responsive Design} 
+Typisch für mobile Geräte ist das Einklappen des Menüs. Das wurde auch auf der Better Books Website umgesetzt - für kleine Tablets und noch kleinere Displays wird das Menü im Footer reduziert und durch das typische ''Burger'' - Icon repräsentiert. Des Weiteren wird aus dem No-Scroll Layout auf kleineren Screens automatisch ein Scroll Layout mit Sticky Footer.\\\\
+Außerdem wurde darauf geachtet relevante Informationen, die der Nutzer auf der entsprechenden Seite erwartet zuerst darzustellen. Mittels der Bootstrap 4 CSS Klasse ''order'' lassen sich so Elemente je nach Breakpoint beliebig neu anordnen. Z.B. soll die Bestseller Liste auf Unterseiten erst nach dem Content geladen werden.\\\\
+Der Link zum Wechseln des Themes soll permanent sichtbar sein und wurde daher im Footer beim Link zu Impressum und Datenschutzhinweisen hinzugefügt. Diese Links sind aus rechtlichen und UX Gründen ebenfalls auf kleinen mobilen Geräte weiterhin sichtbar und werden nicht wie der Rest des Menüs versteckt.\\\\
+Das Quiz wird weiterhin entsprechend der Screengröße zentriert als Overlay dargestellt, die Schriftgröße wird entsprechend der Screengröße verringert.
+
+\begin{flushleft}
+{\Large \textbf{Große Geräte}}\\
+\includegraphics[scale=0.5]{../1_bookstore_main}\\
+\newpage
+{\Large \textbf{Große Tablets}}\\
+\includegraphics[scale=0.5]{../2_bookstore_main_large-tab}\\
+
+{\Large \textbf{Normale bis kleine Tablets}}\\
+\includegraphics[scale=0.5]{../2_bookstore_main_tab}\\
+\newpage
+{\Large \textbf{Smartphone}}\\
+\includegraphics[scale=0.5]{../2_bookstore_main_mobile}\\
+
+{\Large \textbf{Smartphone - Menü und Quiz Beispiel}}\\
+\includegraphics[scale=0.5]{../2_bookstore_main_mobile-quiz-menu}\\
+\end{flushleft}
 
 \end{exercise}
-
-\]
 \end{document}
