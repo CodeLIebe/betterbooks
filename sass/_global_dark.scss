@@ -72,6 +72,10 @@ h3 {
 .overflow {
     overflow-y:auto; }
 
+.img {
+    z-index: 9999;
+}
+
 button#start_btn,
 button#answerButtonA,
 button#answerButtonB,
