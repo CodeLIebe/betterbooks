@@ -43,6 +43,7 @@ Book Cover used in mockups: https://www.freepik.com/free-psd/book-cover-mockup-o
 --Code Pen
 -------------
 Make dropup parent clickable link - open source code from Code Pen by Pascale Beier - https://codepen.io/PascaleBeier/pen/BdgPre - Author: Pascale Beier - Last visited date: 5.12.2018
+JavaScript Search Filter - https://codepen.io/jsartisan/pen/wKORYL
 -------------
 --Tutorials
 -------------
