@@ -136,8 +136,13 @@ input = document.getElementById('search_form');
 var filterBooks = function(event){
   keyword = input.value.toLowerCase();
   filtered_books = books_in_store.filter(function(book){
-        book = book.titel.toLowerCase();
-       return book.indexOf(keyword) > -1;
+        for(var key in book){
+            currentProperty = book[key].toLowerCase();
+            if(currentProperty.indexOf(keyword) > -1){
+              return true;
+            }
+        }
+        return false;
   });
 
   render_books(filtered_books);
