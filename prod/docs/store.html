@@ -64,7 +64,19 @@
            </div>
            <div class="col text-right">
              <input type="text" placeholder="Suche nach Titel, Autor, ISBN .." id="search_form"/>
-
+           </div>
+         </div>
+         <div class="row">
+           <div class="col text-right">
+             <label id="minPrice">0€</label>
+             <input type="range" min="1" max="100" value="100" step = "0.01" id="price-slider" oninput="priceFilterChanged()"/>
+             <label id="maxPrice">100€</label>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col text-right">
+             <label>Price: </label>
+             <label id="currentPriceFilter" />
            </div>
          </div>
          <hr />
