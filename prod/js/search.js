@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 /**
 *HTML Node IDs
 */
@@ -21,7 +20,6 @@ var books_in_store_old = [
   'Steve Fox'
 ];
 
->>>>>>> f8cf0a435830ad68fe42e0d336b27b16c08e4f9b
 var books_in_store = [
 
     {
