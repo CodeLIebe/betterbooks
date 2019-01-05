@@ -6,6 +6,7 @@ let MAX_PRICE_LABEL_ID = "maxPrice";
 let PRICE_FILTER_ID = "price-slider";
 let BOOK_STORE_UL_ID = "book-store";
 let SEARCH_FORM_ID = "search_form";
+let CURRENT_PRICE_FILTER_LABEL_ID = "currentPriceFilter"
 
 var books_in_store_old = [
   'Goku',
@@ -173,7 +174,6 @@ var getPriceList = function(){
 *        that the array must contain at least one element.
 * @return the greatest number
 */
-
 var getMax = function(numbers){
   res = numbers[0]
 
@@ -211,6 +211,7 @@ var getMin = function(numbers){
 */
 var initPriceSlider = function(){
   priceList = getPriceList();
+  priceLabel = document.getElementById(CURRENT_PRICE_FILTER_LABEL_ID);
   minPriceLabel = document.getElementById(MIN_PRICE_LABEL_ID);
   maxPriceLabel = document.getElementById(MAX_PRICE_LABEL_ID);
 
@@ -219,33 +220,39 @@ var initPriceSlider = function(){
 
   minPriceLabel.innerHTML = minPrice + "€";
   maxPriceLabel.innerHTML = maxPrice + "€";
+  priceLabel.innerHTML = maxPrice + "€"
+  priceFilter.setAttribute("min", minPrice);
+  priceFilter.setAttribute("max", maxPrice);
+  priceFilter.setAttribute("value", maxPrice);
 }
 
 initPriceSlider();
 
+var priceFilterChanged = function(){
+  priceLabel = document.getElementById(CURRENT_PRICE_FILTER_LABEL_ID);
+  priceLabel.innerHTML = priceFilter.value + "€";
+
+  filterBooks();
+}
 // lets filter it
 input = document.getElementById(SEARCH_FORM_ID);
 
 var filterBooks = function(event){
-  console.log("Evaluating filters...");
   keyword = input.value.toLowerCase();
   price = priceFilter.value;
-  console.log(price);
+
   filtered_books = books_in_store.filter(function(book){
         bookPrice = book["Price"];
-        console.log(bookPrice);
         if(bookPrice <= price){
           for(var key in book){
             if(key != "Price"){
               currentProperty = book[key].toLowerCase();
               if(currentProperty.indexOf(keyword) > -1){
-                console.log(true);
                 return true;
               }
             }
           }
         }
-        console.log(false);
         return false;
   });
 
