@@ -32,7 +32,7 @@ Book Cover (Leaves): https://www.freepik.com/free-vector/wedding-photography-boo
 Book Cover (Mock up - square): https://www.freepik.com/free-psd/square-book-mockup_1435914.htm - Free Psd - Author: Yeven_popov/Freepik - Last visited date: 5.12.2018
 Open book (Bike riders): https://www.freepik.com/free-psd/stationery-mockup-with-open-bool_1532485.htm - Free Psd - Author: Freepik - Last visited date: 5.12.2018
 Feather used in logo and icon: https://www.freepik.com/free-vector/sketchy-feathers-pack_759744.htm - Free Psd - Author: Freepik - Last visited date: 5.12.2018
-- other icons self-made using Illustrator
+- other icons and images self-made using Illustrator
 --------------------------
 --Images in Mock ups
 --------------------------
@@ -40,10 +40,11 @@ Map in Mockups: https://www.freepik.com/free-vector/map-pin-in-a-map_714013.htm 
 Book Cover (Travel & The end of the boundaries) used in mock ups: https://www.freepik.com/free-psd/book-cover-template_863591.htm - Free Psd - Author: Qeaql-studio/Freepik - Last visited date: 5.12.2018
 Book Cover used in mockups: https://www.freepik.com/free-psd/book-cover-mockup-of-two_2740407.htm - Free Psd - Author: Freepik - Last visited date: 5.12.2018
 -------------
---Code Pen
+--Code Pen/ JS Fiddle
 -------------
 Make dropup parent clickable link - open source code from Code Pen by Pascale Beier - https://codepen.io/PascaleBeier/pen/BdgPre - Author: Pascale Beier - Last visited date: 5.12.2018
-JavaScript Search Filter - https://codepen.io/jsartisan/pen/wKORYL
+JavaScript Search Filter - https://codepen.io/jsartisan/pen/wKORYL - Last visited date: 30.12.2018
+JavaScript Price Slider - http://jsfiddle.net/bZmJ8/33/ - Last visited date: 05.01.2019
 -------------
 --Tutorials
 -------------
@@ -53,7 +54,6 @@ https://lerneprogrammieren.de/tutorial-3-quiz-programmieren/ - Last visited date
 --Quiz Answer
 -------------
 correct answers: 3,2,3
-
 ---------------
 --Other sources
 ---------------

@@ -1,14 +1,3 @@
-var books_in_store_old = [
-  'Goku',
-  'Naruto',
-  'Ichigo',
-  'Flash',
-  'Batman',
-  'Sherlock Holmes',
-  'Khaleesi',
-  'Steve Fox'
-];
-
 var books_in_store = [
 
     {
@@ -93,7 +82,7 @@ var render_books = function(books){
   for(index in books){
     if(index % 3 == 0){
       store += `<div class="row">`;
-      store += `<div class="col">` + `<div class="card">`;
+      store += `<div class="col-lg-4 col-12">` + `<div class="card">`;
       store += `<img class="card-img-top" src="../assets/img/book-title.png">`;
       store += `<div class="card-body mh-6">` + `<h5 class="card-title">` + books[index].titel + `</h5></div>`;
       store += `<ul class="list-group list-group-flush">`;
@@ -103,7 +92,7 @@ var render_books = function(books){
       store += `</ul>`;
       store += `</div></div>`;
     }else if(index % 3 == 2){
-      store += `<div class="col">` + `<div class="card">`;
+      store += `<div class="col-lg-4 col-12">` + `<div class="card">`;
       store += `<img class="card-img-top" src="../assets/img/book-title.png">`;
       store += `<div class="card-body mh-6">` + `<h5 class="card-title">` + books[index].titel + `</h5></div>`;
       store += `<ul class="list-group list-group-flush">`;
@@ -114,7 +103,7 @@ var render_books = function(books){
       store += `</div></div>`;
       store += `</div> <!-- end row --->`;
     } else {
-      store += `<div class="col">` + `<div class="card">`;
+      store += `<div class="col-lg-4 col-12">` + `<div class="card">`;
       store += `<img class="card-img-top" src="../assets/img/book-title.png">`;
       store += `<div class="card-body mh-6">` + `<h5 class="card-title">` + books[index].titel + `</h5></div>`;
       store += `<ul class="list-group list-group-flush">`;
