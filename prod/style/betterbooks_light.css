@@ -101,6 +101,51 @@ a.text-light {
   #search_form:hover, #search_form:focus, #search_form:active {
     outline-color: #d9a625; }
 
+/* The slider itself */
+.price-slider {
+  -webkit-appearance: none;
+  /* Override default CSS styles */
+  appearance: none;
+  height: 1rem;
+  /* Specified height */
+  background: #eaeaea;
+  /* Grey background */
+  outline: none;
+  /* Remove outline */
+  opacity: .7;
+  /* Set transparency (for mouse-over effects on hover) */
+  /* 0.2 seconds transition on hover */
+  transition: opacity .2s; }
+
+/* Mouse-over effects */
+.price-slider:hover {
+  opacity: 1;
+  /* Fully shown on mouse-over */ }
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.price-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /* Override default look */
+  appearance: none;
+  width: 1rem;
+  /* Set a specific slider handle width */
+  height: 1rem;
+  /* Slider handle height */
+  background: #d9a625;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */ }
+
+.price-slider::-moz-range-thumb {
+  width: 1rem;
+  /* Set a specific slider handle width */
+  height: 1rem;
+  /* Slider handle height */
+  background: #d9a625;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */ }
+
 .bg-dark {
   background-color: #333132 !important; }
 

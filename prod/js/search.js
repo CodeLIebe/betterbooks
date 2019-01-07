@@ -5,20 +5,9 @@
 let MIN_PRICE_LABEL_ID = "minPrice";
 let MAX_PRICE_LABEL_ID = "maxPrice";
 let PRICE_FILTER_ID = "price-slider";
-let BOOK_STORE_UL_ID = "book-store";
+let BOOK_STORE_DIV_ID = "book-store";
 let SEARCH_FORM_ID = "search_form";
 let CURRENT_PRICE_FILTER_LABEL_ID = "currentPriceFilter"
-
-var books_in_store_old = [
-  'Goku',
-  'Naruto',
-  'Ichigo',
-  'Flash',
-  'Batman',
-  'Sherlock Holmes',
-  'Khaleesi',
-  'Steve Fox'
-];
 
 var books_in_store = [
 
@@ -108,7 +97,7 @@ var books_in_store = [
     }
 ];
 
-ul = document.getElementById(BOOK_STORE_UL_ID);
+div = document.getElementById(BOOK_STORE_DIV_ID);
 
 var render_books = function(books){
   var store = ``;
@@ -148,7 +137,7 @@ var render_books = function(books){
       store += `</div></div>`;
     }
   }
-  ul.innerHTML = store;
+  div.innerHTML = store;
 };
 
 render_books(books_in_store);
