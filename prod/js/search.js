@@ -160,8 +160,7 @@ var getPriceList = function(){
 
 /**
 * This method will return the greatest number inside a list
-* @param numbers which will be used to search the greatest number. Please be patient
-*        that the array must contain at least one element.
+* @param numbers which will be used to search the greatest number. Array must contain at least one element.
 * @return the greatest number
 */
 var getMax = function(numbers){
@@ -178,8 +177,7 @@ var getMax = function(numbers){
 
 /**
 * This method will find the smallest item inside a List
-* @param numbers which will used for searching the lowest number. Please be patient that
-*        the array must contain at least one element.
+* @param numbers which will used for searching the lowest number. Array must contain at least one element.
 * @return the lowest number
 */
 var getMin = function(numbers){
@@ -196,8 +194,7 @@ var getMin = function(numbers){
 
 /**
 * This method will init the price slider
-* During the initialisation the minimum and maximum price will be set.
-* Also the labels will be set correctly
+* During the initialisation  minimum and maximum price and labels will be set.
 */
 var initPriceSlider = function(){
   priceList = getPriceList();
