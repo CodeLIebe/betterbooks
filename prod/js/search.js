@@ -10,7 +10,7 @@ let SEARCH_FORM_ID = "search_form";
 let CURRENT_PRICE_FILTER_LABEL_ID = "currentPriceFilter"
 
 var books_in_store = [
-
+    
     {
         "titel": "Die Geschichte der Bienen",
         "Autor": "Lunde, Maja",
@@ -206,7 +206,7 @@ var initPriceSlider = function(){
   maxPrice = getMax(priceList);
 
   minPriceLabel.innerHTML = minPrice + "€";
-  maxPriceLabel.innerHTML = maxPrice + "€";
+
   priceLabel.innerHTML = maxPrice + "€"
   priceFilter.setAttribute("min", minPrice);
   priceFilter.setAttribute("max", maxPrice);
