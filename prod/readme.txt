@@ -61,3 +61,5 @@ Tritanomalie: https://www.brillen-sehhilfen.de/auge/tritanomalie-blauschsehschwa
 Deuteranopie: https://www.brillen-sehhilfen.de/auge/deuteranopie-gruenblindheit.php - Last visited date: 19.12.2018
 Presbyopie: https://www.sehtestbilder.de/weitsichtigkeit/altersweitsichtigkeit-presbyopie.php - Last visited date: 19.12.2018
 Tool zum Simulieren von Farbschwächen: http://colororacle.org - Last visited date: 19.12.2018
+Informationen zum Crud Interface: https://stackify.com/what-are-crud-operations/ - Last visited date: 07.01.2019
+

@@ -53,8 +53,69 @@
 \usepackage{hyperref}
 
 \begin{document}
-\begin{exercise}{1 - CLI} 
-....
+\[\begin{exercise}{1 - CLI} 
+\item[a)]\\\\
+Das CLI weist viele Schwächen und Probleme auf. Darunter fällt folgendes:
+  - Nicht intuitiv / schwer zu erlernen, da die Befehlsnamen kaum eine sinnvollen
+    Hintergrund haben. (Warum db, cb, ub, dp, up?). Nur createBook ist an der
+    Stelle ein sinnvoller Befehlsname.
+  - Keine Keyword Labels wie z.B cb from=source to=destination. Stattdessen werden
+    nur die Argumente verwendet. Das macht das Ganze schwerer lesbar, anfällig
+    für semantische Fehler und ist schwer zu verwenden ohne viel Übung.
+  - Befehle führen nicht die Erwartungen aus. Bei cb erwartet man als user ein
+    createBook Befehl und keinen Befehl zum vertauschen der Bücher.
+  - Es gibt keine Hierarchie Struktur und Befehle auf Datenbank Ebene (wie up,
+    createBook) und Befehle auf Bücher Ebene (wie dp, cb) werden in einem
+    Interface vermischt
+  - Anstatt dem Hinweis "What do you mean by this command?" sollte eine Hilfe
+    zu dem Befehl bzw. zum Interface selbst ausgegeben werden.
+
+Des Weiteren auch wenn nicht von Bedeutung für das CLI sollte der price des Buch
+in der JSON nicht als Float gespeichert werden, da dies bei zukünftigen
+Berechnungen zu Rundungsfehlern aufgrund eines Überlaufs führen kann. Preise
+sollten immer in Cent gespeichert werden (Sprich also 1299).
+
+\item[b)]\textbf{Verbesserungsvorschlag}\\\\
+Eine neue Hierarchie nur für Bücher. (Vielleicht soll das Interface später noch
+für eine andere Verwaltung wie z.B Kunden erweitert werden)
+Verwendung von klaren Befehlen, mit keyword labels. Die Syntax und die keyword
+labels sind immer die selben, sodass diese schnell erlernt werden kann
+
+book -create -data=<buch-data>
+book -delete -id=<buch-id>
+book -delete -all
+book -update -id=<buch-id> -newPrice=<preis>
+book -update -id=<buch-id> -data=<buch-data>
+book -exchange -id1=<buch-id1> -id2=<buch-id2>
+
+Ist zum Beispiel die Syntax eines Befehls falsch wird folgende Fehlermeldung angezeigt:
+
+Hilfe:
+
+book -create -data=<buch-data>
+  Legt das Buch mit buch-data in der Datenbank unter einer zufällig bestimmten, noch nicht verwendeten, ID ab.
+  -data: Die Daten des Buch, das erstellt werden soll
+
+book -delete -id=<buch-id>
+  Löscht das Buch mit der ID buch-id aus der Datenbank
+  -id: Die Id des Buch, das gelöscht werden soll
+
+book -delete -all
+  Löscht alle Bücher aus der Datenbank
+
+book -update -id=<buch-id> -newPrice=<preis>
+  Updated den Preis des Buchs mit der ID buch-id
+  -id: Die Id des Buch, das geupdated werden soll
+
+book -update -id=<buch-id> -data=<buch-data>
+  Updated das Buch unter buch-id mit buch-data. Wird nicht jeder Eintrag außer der ID geupdated, schlägt der Befehl fehl.
+  -id: Die Id des Buch, das geupdated werden soll
+  -data: Die Daten des Buch, das geupdated werden soll
+
+book -exchange -id1=<buch-id1> -id2=<buch-id2>
+  Vertauscht die ID vom Buch mit buch-id1 mit der ID vom Buch mit buch-id2
+  -id1: Die Id des ersten Buch
+  -id2: Die Id des zweiten Buch
 \end{exercise}
 
 \begin{exercise}{2 - Suchmaske} 
@@ -163,7 +224,43 @@ Das Ziel der Website sollte eine für möglichst viele Nutzer vorteilhafte UX bi
 \end{exercise}
 
 \begin{exercise}{4 - CRUD Interface} 
-...
+\item[a)]\textbf{Beschreibung}\\\\
+Die Abkürzung CRUD steht für Create, Read, Update, Delete und ist ein Pattern zum
+Designen von Interfaces, welches meistens bei Datenbanken verwenden wird.
+Dies findet oft Verwendung bei der Anbindung von Datenbanken an einen Webservice,
+wobei mittels einer HTTP Methode (Post, Delete, Get), über eine Route eine
+Datenbank Interaktion ausgeführt wird.
+
+Die Create Methode erstellt dabei einen neuen Eintrag in der Datenbank (also ein INSERT)
+Die Read Methode liest einen Eintrag aus der Datenbank
+Die Update Methode aktualisiert dabei einen neuen Eintrag in der Datenbank ((also ein UPDATE)
+Die Delete Methode löscht dabei einen neuen Eintrag in der Datenbank (also ein DELETE)
+
+Vorteile:
+Das Crud Interface wird oft verwendet, da es zum einen Schutz vor SQL Injection Attacken bietet,
+indem es Stored Procedures für die CRUD Befehle verwendet und zum anderen dadurch auch eine bessere
+Performance bietet, da der Ausführungsplan der Stored Procedure durch den SQL Server gecached wird
+und somit für die Zukunft bereits bekannt ist.
+
+Beispiel:
+Die Webserver Lösung Django bietet ein CRUD interface an.
+
+(See https://stackify.com/what-are-crud-operations/)
+
+\item[b)]\\\\
+Create Interface
+book -create -data=<buch-data>
+
+Read Interface
+book -read -id=<buch-id>
+
+Update Interface
+book -update -id=<buch-id> -data=<buch-data>
+book -update -id1=<buch-id1> -id2=<buch-id2>
+
+Delete Interface
+book -delete -id=<buch-id>
 \end{exercise}
 
+\]
 \end{document}
