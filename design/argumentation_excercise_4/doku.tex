@@ -53,8 +53,9 @@
 \usepackage{hyperref}
 
 \begin{document}
-\[\begin{exercise}{1 - CLI} 
-\item[a)]\\\\
+\begin{exercise}{1 - CLI} 
+\begin{itemize}
+\item[a)]
 Das CLI weist viele Schwächen und Probleme auf. Darunter fällt folgendes:
   - Nicht intuitiv / schwer zu erlernen, da die Befehlsnamen kaum eine sinnvollen
     Hintergrund haben. (Warum db, cb, ub, dp, up?). Nur createBook ist an der
@@ -67,7 +68,7 @@ Das CLI weist viele Schwächen und Probleme auf. Darunter fällt folgendes:
   - Es gibt keine Hierarchie Struktur und Befehle auf Datenbank Ebene (wie up,
     createBook) und Befehle auf Bücher Ebene (wie dp, cb) werden in einem
     Interface vermischt
-  - Anstatt dem Hinweis "What do you mean by this command?" sollte eine Hilfe
+  - Anstatt dem Hinweis \"What do you mean by this command?\" sollte eine Hilfe
     zu dem Befehl bzw. zum Interface selbst ausgegeben werden.
 
 Des Weiteren auch wenn nicht von Bedeutung für das CLI sollte der price des Buch
@@ -116,6 +117,7 @@ book -exchange -id1=<buch-id1> -id2=<buch-id2>
   Vertauscht die ID vom Buch mit buch-id1 mit der ID vom Buch mit buch-id2
   -id1: Die Id des ersten Buch
   -id2: Die Id des zweiten Buch
+\end{itemize}
 \end{exercise}
 
 \begin{exercise}{2 - Suchmaske} 
@@ -224,7 +226,8 @@ Das Ziel der Website sollte eine für möglichst viele Nutzer vorteilhafte UX bi
 \end{exercise}
 
 \begin{exercise}{4 - CRUD Interface} 
-\item[a)]\textbf{Beschreibung}\\\\
+\begin{itemize}
+\item[a)]\textbf{Beschreibung}
 Die Abkürzung CRUD steht für Create, Read, Update, Delete und ist ein Pattern zum
 Designen von Interfaces, welches meistens bei Datenbanken verwenden wird.
 Dies findet oft Verwendung bei der Anbindung von Datenbanken an einen Webservice,
@@ -247,7 +250,7 @@ Die Webserver Lösung Django bietet ein CRUD interface an.
 
 (See https://stackify.com/what-are-crud-operations/)
 
-\item[b)]\\\\
+\item[b)]
 Create Interface
 book -create -data=<buch-data>
 
@@ -260,7 +263,8 @@ book -update -id1=<buch-id1> -id2=<buch-id2>
 
 Delete Interface
 book -delete -id=<buch-id>
+
+\end{itemize}
 \end{exercise}
 
-\]
 \end{document}
