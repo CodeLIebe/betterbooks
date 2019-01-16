@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.27)  14 JAN 2019 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.27)  16 JAN 2019 23:24
 entering extended mode
 **./doku.tex
 (doku.tex
@@ -891,270 +891,403 @@ LaTeX Info: Redefining \nameref on input line 55.
 \openout4 = `doku.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--84
+Underfull \hbox (badness 10000) in paragraph at lines 59--73
 
  []
 
 
-Overfull \hbox (11.62524pt too wide) in paragraph at lines 85--91
-[]\T1/cmr/m/n/10 book -create -data=<buch-data> book -delete -id=<buch-id> book
- -delete -all book -update -id=<buch-
- []
-
-
-Overfull \hbox (11.84741pt too wide) in paragraph at lines 85--91
-\T1/cmr/m/n/10 id> -newPrice=<preis> book -update -id=<buch-id> -data=<buch-dat
-a> book -exchange -id1=<buch-
- []
-
-<../10_bookstore_store_redesign.png, id=6, 919.435pt x 596.2275pt>
-File: ../10_bookstore_store_redesign.png Graphic file (type png)
-<use ../10_bookstore_store_redesign.png>
-Package pdftex.def Info: ../10_bookstore_store_redesign.png  used on input line
- 134.
-(pdftex.def)             Requested size: 459.71637pt x 298.11302pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--135
+Underfull \hbox (badness 10000) in paragraph at lines 59--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--135
+Underfull \hbox (badness 10000) in paragraph at lines 74--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--135
+Underfull \hbox (badness 10000) in paragraph at lines 74--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
 
  []
 
 [1
 
 {C:/Users/Websiteshop/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 106--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
+
+ []
+
+<../10_bookstore_store_redesign.png, id=16, 919.435pt x 596.2275pt>
+File: ../10_bookstore_store_redesign.png Graphic file (type png)
+<use ../10_bookstore_store_redesign.png>
+Package pdftex.def Info: ../10_bookstore_store_redesign.png  used on input line
+ 133.
+(pdftex.def)             Requested size: 459.71637pt x 298.11302pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 123--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 123--134
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--174
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
 
  []
 
-[2 <../10_bookstore_store_redesign.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 213.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--173
+
+ []
+
+[3 <../10_bookstore_store_redesign.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 212.
 
 
 ("C:\Users\Websiteshop\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.
 fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--217
+Underfull \hbox (badness 10000) in paragraph at lines 175--216
 
  []
 
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 218--225
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--225
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 217--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--225
+Underfull \hbox (badness 10000) in paragraph at lines 217--224
 
  []
 
-[5] [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--254
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--270
+
+ []
+
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
  (doku.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
 Package rerunfilecheck Info: File `doku.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 270.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
  ) 
 Here is how much of TeX's memory you used:
- 18526 strings out of 492970
- 348075 string characters out of 3123929
- 426290 words of memory out of 3000000
+ 18527 strings out of 492970
+ 348081 string characters out of 3123929
+ 425186 words of memory out of 3000000
  22045 multiletter control sequences out of 15000+200000
  12210 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,54p,506b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,6n,54p,506b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Websiteshop\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
 pi600\ectt1000.pk> <C:\Users\Websiteshop\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Websiteshop\AppData\Local\MiKTeX\2
@@ -1164,9 +1297,9 @@ bsiteshop\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.
 pk> <C:\Users\Websiteshop\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
 dpi600\ecrm1440.pk> <C:\Users\Websiteshop\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
 our\jknappen\ec\dpi600\ecrm2074.pk>
-Output written on doku.pdf (6 pages, 194729 bytes).
+Output written on doku.pdf (7 pages, 196045 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
