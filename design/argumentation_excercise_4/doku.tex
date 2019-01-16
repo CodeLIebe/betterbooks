@@ -249,16 +249,27 @@ Die Webserver Lösung Django bietet ein CRUD interface an.\\\\
 \item[b)]
 Create Interface\\
 book -create -data=<buch-data>\\
+  Legt das Buch mit buch-data in der Datenbank unter einer zufällig bestimmten, noch nicht verwendeten, ID ab.\\
+  -data: Die Daten des Buch, das erstellt werden soll\\
 
 Read Interface\\
 book -read -id=<buch-id>\\
+  Gibt die Daten des Buch mit der ID aus der Datenbank zurück.\\
+  -id: Die Id des Buch, das angefragt wurde\\
 
 Update Interface\\
-book -update -id=<buch-id> -data=<buch-data>\\
-book -update -id1=<buch-id1> -id2=<buch-id2>\\
+book -update -id=<buch-id> -newData<buch-data>\\
+  Updated das Buch mit den neuen Buchdaten\\
+  -id: Die Id des Buch, das geupdated werden soll\\
+  -newData: Die geupdateten Buchdaten des Buchs 
 
 Delete Interface\\
 book -delete -id=<buch-id>\\
+  Löscht das Buch mit der ID buch-id aus der Datenbank\\
+  -id: Die Id des Buch, das gelöscht werden soll\\
+
+Das neue Interface enthält eine einheitliches Interface für alle Update, Delete und Create Operationen. Außerdem gibt es nun eine Read Operation zum Lesen eines Buch.
+Alle Operationen, mit Ausnahme der Create Operation, benötigen eine BuchID als Referenz auf das Buch welches in der Datenbank verändert werden soll.  
 
 \end{itemize}
 \end{exercise}
