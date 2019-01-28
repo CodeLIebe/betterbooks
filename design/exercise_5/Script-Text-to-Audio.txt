@@ -1,0 +1,42 @@
+Heute präsentieren wir das neue Desein des Better Books Stores!
+Alle relevanten Informationen wie Bestseller und der Link zum gesamten Buchkatalog finden sich direkt auf der Startseite.
+Das Hauptmenü ist nicht wie üblich im Header fixiert, sondern im Footer, da die Seite wenig Unterseiten hat, die für die meisten Benutzer wenig Relevanz haben. 
+So wird der Fokus direkt auf die Inhalte gelenkt, die hervorgehoben werden sollen: Bestseller, Bücherkatalog und das Gewinnspiel.
+Das Gestaltprinzip der Nähe wurde auf die Bestseller angewandt, indem sie alle zentral in Leserichtung links nach rechts angeordnet wurden. 
+So fallen sie den meisten Nutzern zuerst ins Blickfeld.
+Außerdem wurde mittels gemeinsamen Desein-Element
+
+das Prinzip der Gleichheit umgesetzt.
+
+Das Gewinnspiel wurde im Lesefluss, anschließend an die Bestseller platziert und der Startbutton ist mit der Highlightfarbe cörry hervorgehoben.
+
+Es lässt sich intuitiv für den Nutzer per Klick in den Hintergrund schließen.
+
+Die Startseite ist sehr ruhig gehalten und nicht so überladen wie viele andere Stores, 
+deren Startseite schon oft den gesamten Buchkatalog enthält. 
+Es soll dem Nutzer so einfach wie möglich gemacht werden für ihn relevante Informationen zu finden, 
+z.B. Allgemeine Infos über Better Books 
+
+oder detaillierte Informationen zur Anreise.
+
+Die aktuelle Bestsellerliste befindet sich auf jeder Unterseite, um Verkäufe zu generieren.
+
+Auch der Bookstore mit seiner Such- und Filterfunktion ist möglichst schlicht und aufgeräumt gehalten.
+
+Links in der Seitbar befindet sich, wie gewohnt, der direkte Zugriff auf aktuelle Bestseller 
+und im Contentbereich sind alle Bücher mit kleiner Cover-Vorschau, Titel , Autor, ISBN und Preis dargestellt,
+um dem Nutzer alle relevanten Informationen ohne weiteren Klick zu liefern.
+
+In der Suchmaske unter dem Seitentitel kann der Nutzer Texteingaben tätigen, die anschließend den Bücher-Katalog filtern und so nur noch die relevanten Treffer darstellen. 
+Hier kann beliebig nach Titel, Autor oder ISBN gefiltert werden.
+
+Zusätzlich besteht die Möglichkeit über den Preisfilter, 
+rechts neben der Sucheingabe, 
+die anzeigten Bücher im Katalog weiter einzugrenzen.
+
+Um möglichst vielen Nutzern den Zugang zur Website zu erleichtern, wurde außerdem noch ein Dark-Siem erstellt, 
+dass von jeder Unterseite aus beliebig ein und ausgeschaltet werden kann.
+
+
+
+Vielen Dank für Ihre Aufmerksamkeit!

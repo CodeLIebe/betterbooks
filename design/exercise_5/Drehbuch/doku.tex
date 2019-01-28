@@ -1,0 +1,104 @@
+\documentclass[a4paper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some common includes. Add additional includes you need.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{ngerman}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[margin=23mm,bottom=30mm]{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{amsmath,amsfonts,amssymb,amsthm}
+\input kvmacros
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx} 
+\usepackage{tikz}
+\usepackage{tkz-graph}
+\usepackage{arydshln}
+\usepackage{multirow}
+\usetikzlibrary{calc}%
+\usepackage{ stmaryrd } %lightning in mathmode
+\usepackage{ wasysym } %average/diameter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Defines for mathematical notation. Add additional defines as needed.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\O{\mathcal{O}}
+\def\sort{\mathrm{sort}}
+\def\scan{\mathrm{scan}}
+\def\dist{\mathrm{dist}}
+\def\N{\mathcal{N}}
+\def\P{\mathcal{P}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definition of the assignment header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{header.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Set option "german" or "english", depending on what language the
+% default texts should be in.
+\ExecuteOptions{german}
+\ProcessOptions
+
+% Enter the lecture name and semester
+\lecture{Human Computer Interaction}
+\semester{WS 18/19}
+
+
+% Enter your data: Name, Matrikelnummer (student ID number) and group
+\student{Elisabeth Fughe }{5263769}{lol}
+\studentshort{Amer El-Ankah} {5750818}
+% Which assignment is this?
+\assignment{5}
+
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage[babelshorthands=true]{german}
+\begin{document}
+\begin{exercise}{1 - Video} 
+\begin{itemize}
+\item[a)] \textbf{Konzeption \& Drehbuch}\\
+Das Video wird als Screencast mit Audiospur umgesetzt, da die Website im Vordergrund steht und so interaktiv die Benutzung präsentiert werden kann.
+
+Der Screencast beginnt mit der Startseite und erklärt die Hauptmerkmale des Designs:\\\\
+\textit{Startseite ist zu sehen.}\\\\
+ ''Heute präsentieren wir das neue Design des Better Books Stores!\\ Alle relevanten Informationen wie Bestseller und der Link zum gesamten Buchkatalog finden sich direkt auf der Startseite. \\
+Das Hauptmenü ist nicht wie üblich im Header fixiert, sondern im Footer, da die Seite wenig Unterseiten hat, die für die meisten Benutzer wenig Relevanz haben. So wird der Fokus direkt auf die Inhalte gelenkt, die hervorgehoben werden sollen: Bestseller, Bücherkatalog und das Gewinnspiel. \\
+Das Gestaltprinzip der Nähe wurde auf die Bestseller angewandt, indem sie alle zentral in Leserichtung links nach rechts angeordnet wurden. So fallen sie den meisten Nutzern zuerst ins Blickfeld.\\ Außerdem wurde mittels gemeinsamen Designelement''\\
+\textit{Overlay über Bestseller wird aktiviert}\\
+''das Prinzip der Gleichheit umgesetzt.'' \\\\
+\textit{Gewinnspiel Button wird geklickt.}\\\\
+''Das Gewinnspiel wurde im Lesefluss anschließend an die Bestseller platziert und der Startbutton ist mit der Highlightfarbe curry hervorgehoben.''\\\\
+\textit{Das Gewinnspiel wird durchgeführt}\\\\
+''Es lässt sich intuitiv für den Nutzer per Klick in den Hintergrund schließen.''\\\\
+\textit{Gewinnspiel wird geschlossen}\\\\
+''Die Startseite ist sehr ruhig gehalten und nicht so überladen wie viele andere Stores, deren Startseite schon oft den gesamten Buchkatalog enthält. Es soll dem Nutzer so einfach wie möglich gemacht werden für ihn relevante Informationen zu finden, z.B. Allgemeine Infos über Better Books''\\\\
+\textit{Menüpunkt Über uns wird geklickt}\\\\
+''oder detaillierte Informationen zur Anreise''\\\\
+\textit{Menüpunkt Anreise wird geklickt}\\\\
+''Die aktuelle Bestsellerliste befindet sich auf jeder Unterseite, um Verkäufe zu generieren.''\\\\
+''Auch der Bookstore mit seiner Such- und Filterfunktion ist möglichst schlicht und aufgeräumt gehalten.''\\\\
+\textit{Menüpunkt Alle Bücher wird geklickt}\\\\
+''Links in der Sidebar befindet sich wie gewohnt der direkten Zugriff auf aktuelle Bestseller und im Contentbereich sind alle Bücher mit kleiner Cover-Vorschau, Titel , Autor, ISBN und Preis dargestellt, um dem Nutzer alle relevanten Informationen ohne weiteren Klick zu liefern.\\
+In der Suchmaske unter dem Seitentitel kann der Nutzer Texteingaben tätigen, die anschließend den Bücherkatalog filtern und so nur noch die relevanten Treffer darstellen. Hier kann beliebig nach Titel, Autor oder ISBN gefiltert werden.''\\\\
+\textit{Text Eingabe ''Der'' }\\\\
+''Zusätzlich besteht die Möglichkeit über den Preisfilter, rechts neben der Sucheingabe, die anzeigten Bücher im Katalog weiter einzugrenzen.''\\\\
+\textit{Der Preisfilter wird auf ca. 11,50EUR geschoben - 2 Bücher bleiben bestehen }\\\\
+''Um möglichst vielen Nutzern den Zugang zur Website zu erleichtern wurde außerdem noch ein Dark-Theme erstellt, dass von jeder Unterseite aus beliebig ein und ausgeschaltet werden kann.''\\\\
+\textit{Darktheme im Bookstore eingeschalten}\\
+\textit{Startseite wird im Menü ausgewählt}\\
+\textit{Zurück zum Light Theme wechseln}\\\\
+''Vielen Dank für Ihre Aufmerksamkeit!''
+\end{itemize}
+\end{exercise}
+\par
+\vskip2cm
+\rule{12cm}{0.6pt}
+\vskip1cm
+\begin{Large}
+Quellen:\\\\
+\end{Large}
+Zur Erstellung der Audiodatei wurde der Text to Speech Converter \url{http://www.fromtexttospeech.com/} genutzt.\\\\
+Zum Erstellen des Screencast wurde \url{tbd} genutzt.\\\\
+Gecastet wurde die aktuelle Version der Website nach Aufgabenblatt 4, alle Quellenangaben dazu im entsprechenden Aufgabenblatt.
+\end{document}

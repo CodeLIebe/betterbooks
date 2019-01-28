@@ -1,0 +1,108 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Do not edit this header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% These commands are used to generate the header
+\newcommand{\lecture}[1]{%
+  \def\uebcslecture{#1}%
+}
+
+\newcommand{\semester}[1]{%
+  \def\uebcssemester{#1}%
+}
+
+
+\newcommand{\student}[3]{%
+  \def\uebcsstdname{#1}%
+  \def\uebcsstdid{#2}%
+  \def\uebcsstdgroup{#3}%
+}
+\newcommand{\studentshort}[2]{%
+  \def\name2{#1}%
+  \def\id2{#2}%
+}
+
+\newcommand{\assignment}[1]{%
+  \def\uebcsnr{#1}%
+}
+
+% The different texts are defined for English and German
+\DeclareOption{german}
+{
+% i18n: deutsch
+\def\uebcsassignment{\"Ubung }
+\def\uebcsexercise{Aufgabe}
+\def\uebcsgroup{Gruppe}
+\def\uebcsmatnr{Mat.-Nr.}
+}
+
+\DeclareOption{english}
+{
+% i18n: english
+\def\uebcsassignment{Assignment}
+\def\uebcsexercise{Exercise}
+\def\uebcsgroup{Group}
+\def\uebcsmatnr{Student ID number}
+}
+
+
+% This environment sets the spaces around the exercises
+\newenvironment{exercise}[1]{{%
+\vspace{3ex}%
+\large%
+\noindent\textbf{\uebcsexercise\ \uebcsnr.#1} %
+\par\vspace{1ex}%
+}}{}
+
+% A small helper box
+\def\debugbox#1{%
+\fboxrule1pt%
+\fboxsep-1pt%
+\fbox{#1}%
+}
+\def\debugbox#1{#1}
+
+% Definition of the assignment header
+\def\uebcsuebungheader{{
+\parskip3mm
+\parbox{\textwidth}{
+\debugbox{
+\parbox[t]{10cm}{
+\vskip0pt
+\hspace{-10mm}
+\huge\uebcslecture
+\vskip3mm
+\hspace{-10mm}
+\Large\uebcssemester 
+\vskip3mm
+\hspace{-10mm}
+\huge \uebcsassignment \uebcsnr
+}
+}
+\hfill
+\debugbox{
+\parbox[t]{62mm}{
+\raggedleft
+\vskip0pt
+\Large \uebcsstdname
+\vskip2mm
+\Large \uebcsmatnr\ \uebcsstdid
+\vskip2mm
+%\Large \uebcsgroup\ \uebcsstdgroup
+%\vskip1mm 
+\hrule
+\vskip2mm 
+\Large \name2 
+\vskip2mm 
+\Large \uebcsmatnr\ \id2
+}
+}
+}
+\vskip5mm
+\hrule 
+\vskip3ex
+}}
+
+% Add header to the beginning of the document
+\AtBeginDocument{\uebcsuebungheader}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
